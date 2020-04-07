@@ -1,4 +1,5 @@
-# INFO6205 Algorithms and data structures Final Project: Ranking System
+# INFO6205 Algorithms and Data Structures 
+# Final Project: Ranking System
 ## Team Member
 - Haimin Zhang
 - Beiyi Sheng
