@@ -9,53 +9,79 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.text.ParseException;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 public class ReadUtil {
-    public static List<Match> readFromCSV(String fileName){
-        List<Match> matchs = new ArrayList<>();
+    public static void readFromCSV(List<Match> matchs,String fileName){
+//        List<Match> matchs = new ArrayList<>();
         Path pathToFile = Paths.get(fileName);
         // create an instance of BufferedReader // using try with resource, Java 7 feature to close resources
         try (BufferedReader br = Files.newBufferedReader(pathToFile, StandardCharsets.US_ASCII)) {
+
             // read the first line from the text file
-             String line = br.readLine();
+             String firstLine = br.readLine();
+             String[] header = firstLine.split(",");
+            Map<String,Integer> columnIndex =null;
+             if(header.length!=0) {
+                 columnIndex=findColumnIndex(header);
+             }
+
             // loop until all lines are read
-             while (line != null) {
+            String line = br.readLine();
+            while (line != null) {
                  String[] attributes = line.split(",");
-                 System.out.println(attributes[1]);
-                 Match match = createMatch(attributes);
-                 // adding book into ArrayList
-                 matchs.add(match);
+//                 System.out.println(attributes.length);
+                 if(attributes.length!=0){
+                     Match match = createMatch(attributes,columnIndex);
+                     // adding match into ArrayList
+                     matchs.add(match);
+                 }
                  // read next line before looping // if end of file reached, line would be null
                  line = br.readLine();
              }}
         catch (IOException ioe) {
             ioe.printStackTrace();
         }
-        return matchs;
+//        return matchs;
+    }
+    private static Map<String,Integer> findColumnIndex(String[] header){
+        Map<String,Integer> columnIndex=new HashMap<>();
+        for(int i=0;i<header.length;i++){
+            if(header[i].equals("Date"))
+                columnIndex.put(header[i],i);
+            if(header[i].equals("HomeTeam"))
+                columnIndex.put(header[i],i);
+            if(header[i].equals("AwayTeam"))
+                columnIndex.put(header[i],i);
+            if(header[i].equals("FTHG"))
+                columnIndex.put(header[i],i);
+            if(header[i].equals("FTAG"))
+                columnIndex.put(header[i],i);
+        }
+        return  columnIndex;
     }
 
-    private static Match createMatch(String[] metadata) {
-         String date= metadata[1];
-         String home= metadata[2];
-         String away= metadata[3];
-        int homeGoals=Integer.parseInt(metadata[4]) ;
-        int awayGoals= Integer.parseInt(metadata[5]);
-        // create and return book of this metadata
-        Match match=new Match(home,away,homeGoals,awayGoals);
+    private static Match createMatch(String[] metadata,Map<String,Integer> columnIndex) {
+        String date = metadata[columnIndex.get("Date")];
+        String home = metadata[columnIndex.get("HomeTeam")];
+        String away = metadata[columnIndex.get("AwayTeam")];
+        int homeGoals = Integer.parseInt(metadata[columnIndex.get("FTHG")]);
+        int awayGoals = Integer.parseInt(metadata[columnIndex.get("FTAG")]);
+        Match match = null;
         try {
+            // create and return match of this metadata
+            match = new Match(home, away, homeGoals, awayGoals);
             match.setDate(date);
-        } catch (ParseException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return match;
     }
 
     public static void main(String[] args) {
-
-        ReadUtil.readFromCSV("src/main/resources/data/2000-2001.csv");
+        List<Match> matchs = new ArrayList<>();
+        ReadUtil.readFromCSV(matchs,"src/main/resources/data/2000-2001.csv");
+        System.out.println(matchs.get(100).getHome());
     }
 }
 

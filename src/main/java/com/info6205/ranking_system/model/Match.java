@@ -58,7 +58,7 @@ public class Match {
     }
 
     public void setDate(String date) throws ParseException {
-        DateFormat df = new SimpleDateFormat("MMM dd, yyyy HH:mm:ss aa");
+        DateFormat df = new SimpleDateFormat("DD/MM/YY");
         this.date = df.parse(date);
     }
 

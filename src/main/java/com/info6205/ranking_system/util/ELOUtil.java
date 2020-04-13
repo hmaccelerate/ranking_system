@@ -8,8 +8,8 @@ public class ELOUtil {
 	private static int beta = 4;
 	
 	
-	static double probability(double t1, double t2) {
-		System.out.println("t1 " + t1 + "t2 " + t2);
+	public static double probability(double t1, double t2) {
+//		System.out.println("t1 " + t1 + "t2 " + t2);
 		double x = (t1-t2) / (Math.sqrt(2)*beta);
 		return normCDF(x);
 	}
@@ -33,7 +33,7 @@ public class ELOUtil {
 	    x = LeftEndpoint + n*(z-LeftEndpoint)/nRectangles;
 	        runningSum += Math.pow(Math.sqrt(2*Math.PI),-1)*Math.exp(-Math.pow(x,2)/2)*(z-LeftEndpoint)/nRectangles;
 	    }
-	    System.out.println("Probability " + runningSum);
+//	    System.out.println("Probability " + runningSum);
 	    return runningSum;
 	}
 	

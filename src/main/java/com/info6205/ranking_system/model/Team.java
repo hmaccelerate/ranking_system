@@ -1,6 +1,6 @@
 package com.info6205.ranking_system.model;
 
-public class Team {
+public class Team implements Comparable<Team>{
 	private double elo;
 	private String teamName;
 	
@@ -21,5 +21,15 @@ public class Team {
 		super();
 		this.elo = elo;
 		this.teamName = teamName;
+	}
+
+	@Override
+	public int compareTo(Team team) {
+		if(this.getElo()>team.getElo())
+			return 1 ;
+		else if(this.getElo()<team.getElo())
+			return -1;
+		else
+			return 0;
 	}
 }
