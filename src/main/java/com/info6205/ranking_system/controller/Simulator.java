@@ -41,10 +41,10 @@ public class Simulator {
     public void rankingTeams(){
         List<Team> teams= new ArrayList<>();
         for (Map.Entry<String, Team> entry : teamsMap.entrySet()) {
-            System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
             teams.add(entry.getValue());
         }
         Collections.sort(teams);
+        Collections.reverse(teams);
         for(int i=0;i<teams.size();i++){
             String rankingInfo=String.format("NO.%d ; Team Name:%s; Team ELO:%f",i+1,teams.get(i).getTeamName(),
                     teams.get(i).getElo());
@@ -68,8 +68,11 @@ public class Simulator {
             System.out.println(matchs.size());
         }
 
+        System.out.println("-----------------Start Match-----------------");
         Simulator simulator=new Simulator();
         simulator.simulateEPL(matchs,1200);
+
+        System.out.println("-----------------Rank Team-----------------");
         simulator.rankingTeams();
     }
 }
