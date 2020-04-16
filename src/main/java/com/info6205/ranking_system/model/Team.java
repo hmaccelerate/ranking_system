@@ -1,7 +1,7 @@
 package com.info6205.ranking_system.model;
 
 public class Team implements Comparable<Team>{
-	private double elo;
+	private Double elo;
 	private String teamName;
 	
 	public double getElo() {

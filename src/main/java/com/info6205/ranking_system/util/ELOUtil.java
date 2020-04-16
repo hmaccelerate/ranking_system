@@ -4,14 +4,21 @@ import com.info6205.ranking_system.model.Team;
 
 public class ELOUtil {
 
-	private static int K = 10;
+	private static int K ;
 	private static int beta = 4;
+
+	public static void setK(int k){
+		ELOUtil.K=k;
+	}
+
 	
-	
-	public static double probability(double t1, double t2) {
+	public static double normalDistProbability(double elo1, double elo2) {
 //		System.out.println("t1 " + t1 + "t2 " + t2);
-		double x = (t1-t2) / (Math.sqrt(2)*beta);
+		double x = (elo1-elo2) / (Math.sqrt(2)*beta);
 		return normCDF(x);
+	}
+	public static double logisticDistProbability(double elo1,double elo2){
+		return  1/(1+Math.pow(10,((elo2-elo1)/400)));
 	}
 	
 	public static double get_G(int goal_difference) {
@@ -38,33 +45,49 @@ public class ELOUtil {
 	}
 	
 	
-	public static void EloUpdate(Team t1, Team t2, double score, int goal_difference) {
+	public static void EloUpdate(Team t1, Team t2, double score, int goal_difference, String probability_function) {
 		double temp1 = t1.getElo();
 		double temp2 = t2.getElo();
 		double G = get_G(goal_difference);
-		t1.setElo(temp1+K*G*(score-probability(temp1, temp2)));
-		if(score == 1/2) {
-			t2.setElo(temp2+K*G*(score-probability(temp2, temp1)));
+		switch (probability_function){
+			case "normal":
+				t1.setElo(temp1+K*G*(score- normalDistProbability(temp1, temp2)));
+				if(score == 1/2) {
+					t2.setElo(temp2+K*G*(score- normalDistProbability(temp2, temp1)));
+				}
+				else {
+					t2.setElo(temp2+K*((-1)*score- normalDistProbability(temp2, temp1)));
+				}
+				break;
+			case "logistic":
+				t1.setElo(temp1+K*G*(score- logisticDistProbability(temp1, temp2)));
+				if(score == 1/2) {
+					t2.setElo(temp2+K*G*(score- logisticDistProbability(temp2, temp1)));
+				}
+				else {
+					t2.setElo(temp2+K*((-1)*score- logisticDistProbability(temp2, temp1)));
+				}
+				break;
 		}
-		else {
-			t2.setElo(temp2+K*G*((-1)*score-probability(temp2, temp1)));
-		}
+
 	}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Team t1 = new Team(120, "A");
-		Team t2 = new Team(120, "B");
-		System.out.println(t1.getElo());
-		System.out.println(t2.getElo());
-		EloUpdate(t1,t2,1,5);
-		EloUpdate(t1,t2,1,5);
-		EloUpdate(t1,t2,-1,5);
-		//EloUpdate(t1,t2,-1);
-		System.out.println(t1.getElo());
-		System.out.println(t2.getElo());
-		System.out.println(probability(t1.getElo(), t2.getElo()));
-		
+//		Team t1 = new Team(120, "A");
+//		Team t2 = new Team(120, "B");
+//		System.out.println(t1.getElo());
+//		System.out.println(t2.getElo());
+//		EloUpdate(t1,t2,1,5,"normal");
+//		EloUpdate(t1,t2,1,5,"normal");
+//		EloUpdate(t1,t2,-1,5,"normal");
+//		//EloUpdate(t1,t2,-1);
+//		System.out.println(t1.getElo());
+//		System.out.println(t2.getElo());
+//		System.out.println(normalDistProbability(t1.getElo(), t2.getElo()));
+		System.out.println(logisticDistProbability(620, 500));
+
+
 	}
 
 }
