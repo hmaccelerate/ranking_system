@@ -42,9 +42,9 @@ public class Simulator {
                     match.getHome(),match.getAway(),match.getHomeGoals(),match.getAwayGoals());
             String eloInfo=String.format("Home team ELO:%s ; AwayTeam ELO :%s; P(Team1 beats Teams): %f",
                     homeTeam.getElo(),awayTeam.getElo(),probability);
-            System.out.println("-----------------------------------------------");
-            System.out.println(matchInfo);
-            System.out.println(eloInfo);
+//            System.out.println("-----------------------------------------------");
+//            System.out.println(matchInfo);
+//            System.out.println(eloInfo);
 
         }
 
@@ -70,8 +70,6 @@ public class Simulator {
     }
 
     public static double precision(int correctPrediction,int totalNumber){
-        System.out.println(correctPrediction);
-        System.out.println(totalNumber);
         double precision=  (double)correctPrediction/totalNumber;
         String precisionInfo= String.format("Precision:%f",precision);
         System.out.println(precisionInfo);
@@ -90,37 +88,30 @@ public class Simulator {
     }
 
     public static void main(String[] args) {
-        //create training dataset and testing dataset
+        //1. create training dataset and testing dataset
+        System.out.println("--------------------create training dataset and testing dataset---------------------");
         List<Match> matches = new ArrayList<>();
         String path = "src/main/resources/data";
+        String newestSeasonPath="src/main/resources/data/2019-2020.csv";
         File file = new File(path);
         File[] fs = file.listFiles();
         if (fs != null) {
             for(File f:fs) {
-                if (!f.isDirectory())
+                if (!f.isDirectory()&& !f.toString().equals(newestSeasonPath))
                     ReadUtil.readFromCSV(matches,f.toString());
+                System.out.println(f.toString());
             }
             System.out.println(matches.size());
         }
         Map<String,List<Match>> splitData=trainTestSplit(matches, 0.8);
 
         Simulator simulator=new Simulator();
-//        Map<String, Team> teamsMap = new HashMap<>();
-//        System.out.println("-----------------Start Match(Training stage)-----------------");
-//        simulator.simulateEPL(splitData.get("train"),teamsMap,1200,"logistic",50);
-//
-//        System.out.println("-----------------Start Match(Testing stage)-----------------");
-//        int correctPrediction=simulator.simulateEPL(splitData.get("test"),teamsMap,1200,"logistic",50);
-//        precision(correctPrediction,splitData.get("test").size());
-//
-//        System.out.println("-----------------Rank Team-----------------");
-//        simulator.rankingTeams(teamsMap);
 
-        System.out.println("--------------------Tuning parameters---------------------");
+        System.out.println("--------------------Tuning parameters to find the best parameter---------------------");
         int[] startPoints=new int[]{1200,1700,2000,2500};
         int[] kValues=new int[]{30,50,70,90};
         String[] probFunctions=new String[]{"logistic","normal"};
-        double bestPrecision=0; int bestStartPoint=0,bestK=0;  String bestProbFunction="";
+        double bestPrecision=0; int bestStartPoint=0,bestK=0;  String bestProbFunction="";Map<String, Team> bestTeamsMap = null;
 
         for (int startPoint: startPoints){
             for (int k:kValues){
@@ -135,8 +126,8 @@ public class Simulator {
                         bestStartPoint= startPoint;
                         bestK=k;
                         bestProbFunction=probFunction;
+                        bestTeamsMap=teamsMap;
                     }
-                    bestPrecision=Math.max(bestPrecision, newPrecision);
                 }
             }
         }
@@ -144,5 +135,11 @@ public class Simulator {
                 bestPrecision,bestK,bestStartPoint,bestProbFunction);
         System.out.println(bestParametersInfo);
 
+        System.out.println("--------------Make prediction on the newest season with best parameters and rank teams");
+        List<Match> newestMatches= new ArrayList<>();
+        ReadUtil.readFromCSV(newestMatches,newestSeasonPath);
+        simulator.simulateEPL(newestMatches,bestTeamsMap,bestStartPoint,bestProbFunction,bestK);
+        System.out.println("-----------------Rank Team-----------------");
+        simulator.rankingTeams(bestTeamsMap);
     }
 }

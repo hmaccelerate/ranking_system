@@ -25,7 +25,6 @@ public class ReadUtil {
              if(header.length!=0) {
                  columnIndex=findColumnIndex(header);
              }
-
             // loop until all lines are read
             String line = br.readLine();
             while (line != null) {
@@ -42,7 +41,6 @@ public class ReadUtil {
         catch (IOException ioe) {
             ioe.printStackTrace();
         }
-//        return matchs;
     }
     private static Map<String,Integer> findColumnIndex(String[] header){
         Map<String,Integer> columnIndex=new HashMap<>();
