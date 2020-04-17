@@ -9,9 +9,9 @@ import java.io.File;
 import java.util.*;
 
 public class Simulator {
-    private Map<String, Team> teamsMap = new HashMap<>();
+//    private Map<String, Team> teamsMap = new HashMap<>();
 
-    public  int simulateEPL(List<Match> matches,double startPoint, String probability_function,int k){
+    public  int simulateEPL(List<Match> matches,Map<String, Team> teamsMap,double startPoint, String probability_function,int k){
         int correctPrediction=0;
         ELOUtil.setK(k);
         for(Match match:matches){
@@ -28,8 +28,11 @@ public class Simulator {
                 ELOUtil.EloUpdate(homeTeam, awayTeam, -1, absGoalDifference,probability_function);
             teamsMap.put(match.getHome(),homeTeam);
             teamsMap.put(match.getAway(),awayTeam);
-
-            double probability=ELOUtil.normalDistProbability(homeTeam.getElo(),awayTeam.getElo());
+            double probability = 0;
+            if (probability_function.equals("normal"))
+                probability=ELOUtil.normalDistProbability(homeTeam.getElo(),awayTeam.getElo());
+            else
+                probability=ELOUtil.logisticDistProbability(homeTeam.getElo(),awayTeam.getElo());
             if(goalDifference>0&&probability>0.5)
                 correctPrediction++;
             else if (goalDifference<0&&probability<0.5)
@@ -44,12 +47,13 @@ public class Simulator {
             System.out.println(eloInfo);
 
         }
+
         return correctPrediction;
 
 
     }
 
-    public void rankingTeams(){
+    public  List<Team> rankingTeams(Map<String, Team> teamsMap){
         List<Team> teams= new ArrayList<>();
         for (Map.Entry<String, Team> entry : teamsMap.entrySet()) {
             teams.add(entry.getValue());
@@ -62,6 +66,7 @@ public class Simulator {
             System.out.println("-----------------------------------------------");
             System.out.println(rankingInfo);
         }
+        return teams;
     }
 
     public static double precision(int correctPrediction,int totalNumber){
@@ -85,8 +90,7 @@ public class Simulator {
     }
 
     public static void main(String[] args) {
-        //logic distribution probability
-        //tuning parameter
+        //create training dataset and testing dataset
         List<Match> matches = new ArrayList<>();
         String path = "src/main/resources/data";
         File file = new File(path);
@@ -101,15 +105,16 @@ public class Simulator {
         Map<String,List<Match>> splitData=trainTestSplit(matches, 0.8);
 
         Simulator simulator=new Simulator();
-        System.out.println("-----------------Start Match(Training stage)-----------------");
-        simulator.simulateEPL(splitData.get("train"),1200,"logistic",50);
-
-        System.out.println("-----------------Start Match(Testing stage)-----------------");
-        int correctPrediction=simulator.simulateEPL(splitData.get("test"),1200,"logistic",50);
-        precision(correctPrediction,splitData.get("test").size());
-
-        System.out.println("-----------------Rank Team-----------------");
-        simulator.rankingTeams();
+//        Map<String, Team> teamsMap = new HashMap<>();
+//        System.out.println("-----------------Start Match(Training stage)-----------------");
+//        simulator.simulateEPL(splitData.get("train"),teamsMap,1200,"logistic",50);
+//
+//        System.out.println("-----------------Start Match(Testing stage)-----------------");
+//        int correctPrediction=simulator.simulateEPL(splitData.get("test"),teamsMap,1200,"logistic",50);
+//        precision(correctPrediction,splitData.get("test").size());
+//
+//        System.out.println("-----------------Rank Team-----------------");
+//        simulator.rankingTeams(teamsMap);
 
         System.out.println("--------------------Tuning parameters---------------------");
         int[] startPoints=new int[]{1200,1700,2000,2500};
@@ -120,9 +125,11 @@ public class Simulator {
         for (int startPoint: startPoints){
             for (int k:kValues){
                 for (String probFunction:probFunctions){
-                    simulator.simulateEPL(splitData.get("train"),startPoint,probFunction,k);
-                    double newPrecision=simulator.simulateEPL(splitData.get("test"),startPoint,probFunction,k);
-                    simulator.rankingTeams();
+                    Map<String, Team> teamsMap = new HashMap<>();
+                    simulator.simulateEPL(splitData.get("train"),teamsMap,startPoint,probFunction,k);
+                    int correctPrediction=simulator.simulateEPL(splitData.get("test"),teamsMap,startPoint,probFunction,k);
+                    double newPrecision=precision(correctPrediction,splitData.get("test").size());
+                    simulator.rankingTeams(teamsMap);
                     if (newPrecision>bestPrecision){
                         bestPrecision=newPrecision;
                         bestStartPoint= startPoint;

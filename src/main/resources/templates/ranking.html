@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EPL Ranking System</title>
+</head>
+<body>
+<CENTER><h1 >EPL Ranking System</h1>
+    <hr/>
+    <h2 >EPL Ranking System</h2>
+<table>
+    <tr><td>No.</td><td>Team Name</td><td>Elo Value</td></tr>
+    <tr th:each="team,memberStat:${allTeams}">
+        <td th:text="${memberStat.index + 1}"/>
+        <td th:text="${team.teamName}"/>
+        <td th:text="${team.elo}"/>
+    </tr>
+</table>
+</CENTER>
+</body>
+</html>
