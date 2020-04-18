@@ -17,7 +17,6 @@ public class Simulator {
         for(Match match:matches){
             Team homeTeam= teamsMap.getOrDefault(match.getHome(),new Team(startPoint,match.getHome()));
             Team awayTeam= teamsMap.getOrDefault(match.getAway(),new Team(startPoint,match.getAway()));
-
             int goalDifference=match.getHomeGoals()-match.getAwayGoals();
             int absGoalDifference=Math.abs(goalDifference);
             if(goalDifference>0)
@@ -43,10 +42,9 @@ public class Simulator {
                     match.getHome(),match.getAway(),match.getHomeGoals(),match.getAwayGoals());
             String eloInfo=String.format("Home team ELO:%s ; AwayTeam ELO :%s; P(Team1 beats Team2): %f",
                     homeTeam.getElo(),awayTeam.getElo(),probability);
-//            System.out.println("-----------------------------------------------");
-//            System.out.println(matchInfo);
-//            System.out.println(eloInfo);
-
+            System.out.println("-----------------------------------------------");
+            System.out.println(matchInfo);
+            System.out.println(eloInfo);
         }
 
         return correctPrediction;

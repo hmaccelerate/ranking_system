@@ -13,10 +13,10 @@ public class ELOUtil {
 
 	
 	public static double normalDistProbability(double elo1, double elo2) {
-//		System.out.println("t1 " + t1 + "t2 " + t2);
 		double x = (elo1-elo2) / (Math.sqrt(2)*beta);
 		return normCDF(x);
 	}
+
 	public static double logisticDistProbability(double elo1,double elo2){
 		return  1/(1+Math.pow(10,((elo2-elo1)/400)));
 	}
@@ -40,7 +40,6 @@ public class ELOUtil {
 	    x = LeftEndpoint + n*(z-LeftEndpoint)/nRectangles;
 	        runningSum += Math.pow(Math.sqrt(2*Math.PI),-1)*Math.exp(-Math.pow(x,2)/2)*(z-LeftEndpoint)/nRectangles;
 	    }
-//	    System.out.println("Probability " + runningSum);
 	    return runningSum;
 	}
 	

@@ -1,12 +1,16 @@
-# INFO6205 Algorithms and Data Structures 
 # Final Project: Ranking System
+## Course: INFO6205 Algorithms and Data Structures
+## Professor: Robin Hillyard
 ## Team Member
 - Haimin Zhang
 - Beiyi Sheng
-## Project
-This is an Elo Rating calculator specifically tweaked for soccer matches. 
 
-It can calculate a given team rating based on a history of matches spread out over different seasons/leagues, give you the likelihood of Team A beating Team B, import and export data do JSON files, personalize the algorithm, and many more features.
+## Project
+This is an Elo Ranking system specifically  for English Premier League. 
+
+It has two parts:
+    - Simulator: Simulating EPL to calculate teams' rating  based on a history of matches spread out over different seasons and give you the likelihood of Team A beating Team B
+    - Website: A simple website based on the simulator that can upload csv files and then analyze csv files to rank teams
 
 ## Elo
 From Wikipedia:
@@ -18,72 +22,40 @@ This implementation has a few tweaks to adjust to soccer matches, more notably, 
 For detailed information about the formulas and a bit more of theory, please visit the [Wikipedia Page](https://en.wikipedia.org/wiki/World_Football_Elo_Ratings)
 
 ## Usage
-### Build an instance.
+This is a maven project, you can have to build the maven environment and import this project into Eclipse or Intellij idea.
 
+## Run the simple website
+The website entrance  is on the RankingSystemApplication.java. You can ran main method of this file and it will start to run.
+
+## Run the simulator
+The program entrance of the simulator is on the simulator.java. You can ran main method of this file and it will start to simulate EPL based on the history data.
+
+
+### Load the data
 ```Java
-EloCalculator calculator = new EloCalculator();
-try {
-  calculator = new EloCalculator.Builder()
-                .setK(20)
-                .setLeagues("C:\\Soccer\\Data.json")
-                .setRegressTowardMean(true)
-                .build();
-} catch (IOException ex) {
-  Logger.getLogger(MainClass.class.getName()).log(Level.SEVERE, null, ex);
-}
+
+List<Match> newestMatches= new ArrayList<>();
+ReadUtil.readFromCSV(newestMatches,newestSeasonPath);
+```
+
+### Build the simulator 
+```Java
+int bestStartPoint=1200,bestK=50;  String bestProbFunction="normal";HashMap<String, Team> bestTeamsMap  = new HashMap<>();
+int correctPrediction=simulator.simulateEPL(newestMatches,bestTeamsMap,bestStartPoint,bestProbFunction,bestK);
+
 ```        
 
-### Calculate the ratings
+### Rank teams and calculate the precision
 
 ```Java
-calculator.calculateRatings();
+simulator.rankingTeams(bestTeamsMap);
+precision(correctPrediction,splitData.get("test").size());
 ```    
 
-### Use your data
-You can save it (and load it later, so you don't need to recalculate).
-
-```Java
-try {
-  calculator.saveTeamsJSONFile("C:\\Soccer\\Ratings_Jan_2017.json");
-} catch (IOException ex) {
-  Logger.getLogger(MainClass.class.getName()).log(Level.SEVERE, null, ex);
-}
+### CSV Input Scheme
 ```
-
-Or you could get your data directly. In this example, we only print the rating in descending order.
-
-```Java
-System.out.println("Ranking: ");
-List<Team> teams = calculator.getTeams(true);
-for(Team t : teams)
-  System.out.println(((int) t.getLastRating().getRating()) + " " + t.getName());         
-```
-
-### Leagues Input Scheme
-```JSON
-[
-  {
-    "champion": "Palmeiras",
-    "name": "Campeonato Brasileiro 2016",
-    "matches": [
-      {
-        "home": "Vitória",
-        "away": "Palmeiras",
-        "homeGoals": 1,
-        "awayGoals": 2,
-        "date": "Dec 11, 2016 12:00:00 AM"
-      },
-      {
-        "home": "Palmeiras",
-        "away": "Atlético-PR",
-        "homeGoals": 4,
-        "awayGoals": 0,
-        "date": "May 14, 2016 12:00:00 AM"
-      }
-    ],
-    "year": 2016
-  }
-]
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG
+E0,19/08/00,Charlton,Man City,4,0
 ```
 
 ## Data source
