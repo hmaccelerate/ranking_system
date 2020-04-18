@@ -20,11 +20,11 @@ public class Simulator {
             int goalDifference=match.getHomeGoals()-match.getAwayGoals();
             int absGoalDifference=Math.abs(goalDifference);
             if(goalDifference>0)
-                ELOUtil.EloUpdate(homeTeam, awayTeam, 1, absGoalDifference,probability_function);
+                ELOUtil.EloUpdatewithG(homeTeam, awayTeam, 1, absGoalDifference,probability_function);
             else if(goalDifference==0)
-                ELOUtil.EloUpdate(homeTeam, awayTeam, 0.5, absGoalDifference,probability_function);
+                ELOUtil.EloUpdatewithG(homeTeam, awayTeam, 0.5, absGoalDifference,probability_function);
             else
-                ELOUtil.EloUpdate(homeTeam, awayTeam, -1, absGoalDifference,probability_function);
+                ELOUtil.EloUpdatewithG(homeTeam, awayTeam, -1, absGoalDifference,probability_function);
             teamsMap.put(match.getHome(),homeTeam);
             teamsMap.put(match.getAway(),awayTeam);
             double probability = 0;
@@ -86,7 +86,7 @@ public class Simulator {
         return map;
     }
 
-    public static void main(String[] args) {
+    public void findBestParameters(){
         //1. create training dataset and testing dataset
         System.out.println("--------------------create training dataset and testing dataset---------------------");
         List<Match> matches = new ArrayList<>();
@@ -133,14 +133,99 @@ public class Simulator {
         String bestParametersInfo=String.format("Best precision:%f, Best k:%d,Best startppint: %d ,Best probfuncion: %s, ",
                 bestPrecision,bestK,bestStartPoint,bestProbFunction);
         System.out.println(bestParametersInfo);
-
         System.out.println("--------------Make prediction on the newest season with best parameters and rank teams");
         List<Match> newestMatches= new ArrayList<>();
         ReadUtil.readFromCSV(newestMatches,newestSeasonPath);
         int correctPrediction=simulator.simulateEPL(newestMatches,bestTeamsMap,bestStartPoint,bestProbFunction,bestK);
         System.out.println("-----------------Rank Team-----------------");
-        simulator.rankingTeams(bestTeamsMap);
+        List<Team> orderedTeams=simulator.rankingTeams(bestTeamsMap);
         System.out.println("-----------------Precision-----------------");
         precision(correctPrediction,splitData.get("test").size());
+
+    }
+
+    public static void main(String[] args) {
+        System.out.println("--------------------Learn from history data---------------------");
+
+        List<Match> matches = new ArrayList<>();
+        String path = "src/main/resources/data";
+        File file = new File(path);
+        File[] fs = file.listFiles();
+        if (fs != null) {
+            for(File f:fs) {
+                if (!f.isDirectory())
+                    ReadUtil.readFromCSV(matches,f.toString());
+                System.out.println(f.toString());
+            }
+            System.out.println(matches.size());
+        }
+        HashMap<String, Team> teamsMap  = new HashMap<>();
+        int bestStartPoint=1200,bestK=50;  String bestProbFunction="normal";
+        Simulator simulator=new Simulator();
+        simulator.simulateEPL(matches, teamsMap, bestStartPoint, bestProbFunction,bestK);
+        String[] newestTeams = new String[]{"Arsenal","Aston Villa","Bournemouth","Brighton","Burnley","Chelsea","Crystal Palace","Everton","Leicester"
+                ,"Liverpool","Man City","Man United","Newcastle","Norwich","Sheffield United","Southampton","Tottenham","Watford","West Ham","Wolves"};
+
+        List<Team> teams2019=new ArrayList<>();
+        for( String t:newestTeams){
+            Team team =teamsMap.get(t);
+            teams2019.add(team);
+        }
+
+        System.out.println("-------------- Start simulate 2019~2020");
+        HashMap<String,Integer> teamsResult=new HashMap<>();
+
+        for(int i=0;i<newestTeams.length;i++){
+            Team A= teamsMap.get(newestTeams[i]);
+            for(int j=i+1;j<newestTeams.length;j++){
+                Team B=teamsMap.get(newestTeams[j]);
+                // Home
+                System.out.println("-------Home-------------");
+                double probability=ELOUtil.normalDistProbability(A.getElo(),B.getElo());
+                if(probability>0.5){
+                    ELOUtil.EloUpdate(A, B, 1,bestProbFunction);
+                    int teamAScore=teamsResult.getOrDefault(A.getTeamName(), 0)+3;
+                    teamsResult.put(A.getTeamName(),teamAScore);
+                }
+                else if(probability==0.5){
+                    ELOUtil.EloUpdate(A, B, 0.5,bestProbFunction);
+                    int teamAScore=teamsResult.getOrDefault(A.getTeamName(), 0)+1;
+                    int teamBScore=teamsResult.getOrDefault(A.getTeamName(), 0)+1;
+                    teamsResult.put(A.getTeamName(),teamAScore);
+                    teamsResult.put(A.getTeamName(),teamBScore);
+                }
+                else{
+                    ELOUtil.EloUpdate(A, B, -1,bestProbFunction);
+                    int teamBScore=teamsResult.getOrDefault(A.getTeamName(), 0)+3;
+                    teamsResult.put(A.getTeamName(),teamBScore);
+                }
+                // Away
+                System.out.println("-------Away-------------");
+                probability=ELOUtil.normalDistProbability(B.getElo(),A.getElo());
+                if(probability>0.5){
+                    ELOUtil.EloUpdate(B, A, 1,bestProbFunction);
+                    int teamBScore=teamsResult.getOrDefault(A.getTeamName(), 0)+3;
+                    teamsResult.put(A.getTeamName(),teamBScore);
+                }
+                else if(probability==0.5){
+                    ELOUtil.EloUpdate(B, A, 0.5,bestProbFunction);
+                    int teamAScore=teamsResult.getOrDefault(A.getTeamName(), 0)+1;
+                    int teamBScore=teamsResult.getOrDefault(A.getTeamName(), 0)+1;
+                    teamsResult.put(A.getTeamName(),teamAScore);
+                    teamsResult.put(A.getTeamName(),teamBScore);
+                }
+                else{
+                    ELOUtil.EloUpdate(B, A, -1,bestProbFunction);
+                    int teamAScore=teamsResult.getOrDefault(A.getTeamName(), 0)+3;
+                    teamsResult.put(A.getTeamName(),teamAScore);
+                }
+                teamsMap.put(A.getTeamName(), A);
+                teamsMap.put(B.getTeamName(),B);
+            }
+        }
+
+
+
+
     }
 }

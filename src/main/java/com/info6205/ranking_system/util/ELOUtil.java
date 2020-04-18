@@ -44,7 +44,7 @@ public class ELOUtil {
 	}
 	
 	
-	public static void EloUpdate(Team t1, Team t2, double score, int goal_difference, String probability_function) {
+	public static void EloUpdatewithG(Team t1, Team t2, double score, int goal_difference, String probability_function) {
 		double temp1 = t1.getElo();
 		double temp2 = t2.getElo();
 		double G = get_G(goal_difference);
@@ -70,6 +70,33 @@ public class ELOUtil {
 		}
 
 	}
+
+	public static void EloUpdate(Team t1, Team t2, double score, String probability_function) {
+		double temp1 = t1.getElo();
+		double temp2 = t2.getElo();
+		switch (probability_function){
+			case "normal":
+				t1.setElo(temp1+K*(score- normalDistProbability(temp1, temp2)));
+				if(score == 1/2) {
+					t2.setElo(temp2+K*(score- normalDistProbability(temp2, temp1)));
+				}
+				else {
+					t2.setElo(temp2+K*((-1)*score- normalDistProbability(temp2, temp1)));
+				}
+				break;
+			case "logistic":
+				t1.setElo(temp1+K*(score- logisticDistProbability(temp1, temp2)));
+				if(score == 1/2) {
+					t2.setElo(temp2+K*(score- logisticDistProbability(temp2, temp1)));
+				}
+				else {
+					t2.setElo(temp2+K*((-1)*score- logisticDistProbability(temp2, temp1)));
+				}
+				break;
+		}
+
+	}
+
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
