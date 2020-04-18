@@ -9,7 +9,9 @@
 This is an Elo Ranking system specifically  for English Premier League. 
 
 It has two parts:
+   
     - Simulator: Simulating EPL to calculate teams' rating  based on a history of matches spread out over different seasons and give you the likelihood of Team A beating Team B
+   
     - Website: A simple website based on the simulator that can upload csv files and then analyze csv files to rank teams
 
 ## Elo
