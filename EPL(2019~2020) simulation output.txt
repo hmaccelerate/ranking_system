@@ -1,0 +1,1541 @@
+-------------- Start simulate 2019~2020 EPL---------------
+-------Home-------------
+Home:Arsenal Away:Aston Villa Probability: 0.9999999999999977
+-------Home-------------
+Home:Arsenal Away:Bournemouth Probability: 0.0
+-------Home-------------
+Home:Arsenal Away:Brighton Probability: 0.0
+-------Home-------------
+Home:Arsenal Away:Burnley Probability: 0.9999992415425599
+-------Home-------------
+Home:Arsenal Away:Chelsea Probability: 0.0
+-------Home-------------
+Home:Arsenal Away:Crystal Palace Probability: 0.9999999999999952
+-------Home-------------
+Home:Arsenal Away:Everton Probability: 0.9999999999999986
+-------Home-------------
+Home:Arsenal Away:Leicester Probability: 7.020680676668289E-205
+-------Home-------------
+Home:Arsenal Away:Liverpool Probability: 0.0
+-------Home-------------
+Home:Arsenal Away:Man City Probability: 0.0
+-------Home-------------
+Home:Arsenal Away:Man United Probability: 0.0
+-------Home-------------
+Home:Arsenal Away:Newcastle Probability: 0.9999999999999964
+-------Home-------------
+Home:Arsenal Away:Norwich Probability: 2.059334614102062E-195
+-------Home-------------
+Home:Arsenal Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Arsenal Away:Southampton Probability: 1.0
+-------Home-------------
+Home:Arsenal Away:Tottenham Probability: 0.0
+-------Home-------------
+Home:Arsenal Away:Watford Probability: 0.0
+-------Home-------------
+Home:Arsenal Away:West Ham Probability: 0.9999999999999936
+-------Home-------------
+Home:Arsenal Away:Wolves Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Arsenal Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Bournemouth Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Brighton Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Burnley Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Chelsea Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Crystal Palace Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Everton Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Leicester Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Liverpool Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Man City Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Man United Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Newcastle Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Norwich Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Southampton Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Tottenham Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Watford Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:West Ham Probability: 0.0
+-------Home-------------
+Home:Aston Villa Away:Wolves Probability: 0.0
+-------Home-------------
+Home:Bournemouth Away:Arsenal Probability: 0.9999999999999967
+-------Home-------------
+Home:Bournemouth Away:Aston Villa Probability: 0.9999999999999984
+-------Home-------------
+Home:Bournemouth Away:Brighton Probability: 0.0
+-------Home-------------
+Home:Bournemouth Away:Burnley Probability: 0.9999999999999974
+-------Home-------------
+Home:Bournemouth Away:Chelsea Probability: 0.9999999999999956
+-------Home-------------
+Home:Bournemouth Away:Crystal Palace Probability: 1.0
+-------Home-------------
+Home:Bournemouth Away:Everton Probability: 0.9999999999999996
+-------Home-------------
+Home:Bournemouth Away:Leicester Probability: 1.0
+-------Home-------------
+Home:Bournemouth Away:Liverpool Probability: 0.0
+-------Home-------------
+Home:Bournemouth Away:Man City Probability: 6.859357400301813E-230
+-------Home-------------
+Home:Bournemouth Away:Man United Probability: 0.9999999999999962
+-------Home-------------
+Home:Bournemouth Away:Newcastle Probability: 0.9999999999999976
+-------Home-------------
+Home:Bournemouth Away:Norwich Probability: 0.9999999999999999
+-------Home-------------
+Home:Bournemouth Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Bournemouth Away:Southampton Probability: 1.0
+-------Home-------------
+Home:Bournemouth Away:Tottenham Probability: 0.9999999999999982
+-------Home-------------
+Home:Bournemouth Away:Watford Probability: 0.9999999999999994
+-------Home-------------
+Home:Bournemouth Away:West Ham Probability: 0.999999999999999
+-------Home-------------
+Home:Bournemouth Away:Wolves Probability: 0.9999999999999996
+-------Home-------------
+Home:Brighton Away:Arsenal Probability: 0.9999999999999991
+-------Home-------------
+Home:Brighton Away:Aston Villa Probability: 1.0
+-------Home-------------
+Home:Brighton Away:Bournemouth Probability: 1.0000000000000013
+-------Home-------------
+Home:Brighton Away:Burnley Probability: 1.0
+-------Home-------------
+Home:Brighton Away:Chelsea Probability: 0.999999999999998
+-------Home-------------
+Home:Brighton Away:Crystal Palace Probability: 0.9999999999999988
+-------Home-------------
+Home:Brighton Away:Everton Probability: 0.999999999999999
+-------Home-------------
+Home:Brighton Away:Leicester Probability: 1.0000000000000007
+-------Home-------------
+Home:Brighton Away:Liverpool Probability: 0.9999999999999981
+-------Home-------------
+Home:Brighton Away:Man City Probability: 0.9999999999999976
+-------Home-------------
+Home:Brighton Away:Man United Probability: 1.0
+-------Home-------------
+Home:Brighton Away:Newcastle Probability: 1.0
+-------Home-------------
+Home:Brighton Away:Norwich Probability: 0.9999999999999994
+-------Home-------------
+Home:Brighton Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Brighton Away:Southampton Probability: 0.9999999999999994
+-------Home-------------
+Home:Brighton Away:Tottenham Probability: 1.0
+-------Home-------------
+Home:Brighton Away:Watford Probability: 1.0
+-------Home-------------
+Home:Brighton Away:West Ham Probability: 1.0
+-------Home-------------
+Home:Brighton Away:Wolves Probability: 0.9999999999999996
+-------Home-------------
+Home:Burnley Away:Arsenal Probability: 0.9999999999999973
+-------Home-------------
+Home:Burnley Away:Aston Villa Probability: 0.999999999999999
+-------Home-------------
+Home:Burnley Away:Bournemouth Probability: 0.0
+-------Home-------------
+Home:Burnley Away:Brighton Probability: 0.0
+-------Home-------------
+Home:Burnley Away:Chelsea Probability: 0.0
+-------Home-------------
+Home:Burnley Away:Crystal Palace Probability: 0.9999999999999967
+-------Home-------------
+Home:Burnley Away:Everton Probability: 1.0
+-------Home-------------
+Home:Burnley Away:Leicester Probability: 0.0
+-------Home-------------
+Home:Burnley Away:Liverpool Probability: 0.0
+-------Home-------------
+Home:Burnley Away:Man City Probability: 0.0
+-------Home-------------
+Home:Burnley Away:Man United Probability: 0.0
+-------Home-------------
+Home:Burnley Away:Newcastle Probability: 0.9999999999999954
+-------Home-------------
+Home:Burnley Away:Norwich Probability: 0.0
+-------Home-------------
+Home:Burnley Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Burnley Away:Southampton Probability: 0.9999999999999952
+-------Home-------------
+Home:Burnley Away:Tottenham Probability: 0.0
+-------Home-------------
+Home:Burnley Away:Watford Probability: 0.0
+-------Home-------------
+Home:Burnley Away:West Ham Probability: 0.9999999999999967
+-------Home-------------
+Home:Burnley Away:Wolves Probability: 0.0
+-------Home-------------
+Home:Chelsea Away:Arsenal Probability: 0.9999999999999996
+-------Home-------------
+Home:Chelsea Away:Aston Villa Probability: 0.9999999999999993
+-------Home-------------
+Home:Chelsea Away:Bournemouth Probability: 0.0
+-------Home-------------
+Home:Chelsea Away:Brighton Probability: 0.0
+-------Home-------------
+Home:Chelsea Away:Burnley Probability: 1.0
+-------Home-------------
+Home:Chelsea Away:Crystal Palace Probability: 0.9999999999999962
+-------Home-------------
+Home:Chelsea Away:Everton Probability: 1.0
+-------Home-------------
+Home:Chelsea Away:Leicester Probability: 0.9999999999999969
+-------Home-------------
+Home:Chelsea Away:Liverpool Probability: 0.0
+-------Home-------------
+Home:Chelsea Away:Man City Probability: 0.0
+-------Home-------------
+Home:Chelsea Away:Man United Probability: 7.885987072704891E-185
+-------Home-------------
+Home:Chelsea Away:Newcastle Probability: 0.9999999999999996
+-------Home-------------
+Home:Chelsea Away:Norwich Probability: 0.9999999999999989
+-------Home-------------
+Home:Chelsea Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Chelsea Away:Southampton Probability: 0.9999999999999986
+-------Home-------------
+Home:Chelsea Away:Tottenham Probability: 1.776074725960017E-17
+-------Home-------------
+Home:Chelsea Away:Watford Probability: 0.9999999999999947
+-------Home-------------
+Home:Chelsea Away:West Ham Probability: 1.0
+-------Home-------------
+Home:Chelsea Away:Wolves Probability: 0.0
+-------Home-------------
+Home:Crystal Palace Away:Arsenal Probability: 3.6383004873310646E-108
+-------Home-------------
+Home:Crystal Palace Away:Aston Villa Probability: 0.999999999999998
+-------Home-------------
+Home:Crystal Palace Away:Bournemouth Probability: 0.0
+-------Home-------------
+Home:Crystal Palace Away:Brighton Probability: 0.0
+-------Home-------------
+Home:Crystal Palace Away:Burnley Probability: 2.180202740643154E-177
+-------Home-------------
+Home:Crystal Palace Away:Chelsea Probability: 0.0
+-------Home-------------
+Home:Crystal Palace Away:Everton Probability: 3.846665815373714E-117
+-------Home-------------
+Home:Crystal Palace Away:Leicester Probability: 0.0
+-------Home-------------
+Home:Crystal Palace Away:Liverpool Probability: 0.0
+-------Home-------------
+Home:Crystal Palace Away:Man City Probability: 0.0
+-------Home-------------
+Home:Crystal Palace Away:Man United Probability: 0.0
+-------Home-------------
+Home:Crystal Palace Away:Newcastle Probability: 0.002330090805983809
+-------Home-------------
+Home:Crystal Palace Away:Norwich Probability: 0.0
+-------Home-------------
+Home:Crystal Palace Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Crystal Palace Away:Southampton Probability: 7.383439410587678E-217
+-------Home-------------
+Home:Crystal Palace Away:Tottenham Probability: 0.0
+-------Home-------------
+Home:Crystal Palace Away:Watford Probability: 0.0
+-------Home-------------
+Home:Crystal Palace Away:West Ham Probability: 0.0
+-------Home-------------
+Home:Crystal Palace Away:Wolves Probability: 0.0
+-------Home-------------
+Home:Everton Away:Arsenal Probability: 0.0
+-------Home-------------
+Home:Everton Away:Aston Villa Probability: 0.9999999999999971
+-------Home-------------
+Home:Everton Away:Bournemouth Probability: 0.0
+-------Home-------------
+Home:Everton Away:Brighton Probability: 0.0
+-------Home-------------
+Home:Everton Away:Burnley Probability: 0.0
+-------Home-------------
+Home:Everton Away:Chelsea Probability: 0.0
+-------Home-------------
+Home:Everton Away:Crystal Palace Probability: 0.9999999999999983
+-------Home-------------
+Home:Everton Away:Leicester Probability: 0.0
+-------Home-------------
+Home:Everton Away:Liverpool Probability: 0.0
+-------Home-------------
+Home:Everton Away:Man City Probability: 0.0
+-------Home-------------
+Home:Everton Away:Man United Probability: 0.0
+-------Home-------------
+Home:Everton Away:Newcastle Probability: 4.799964530918712E-60
+-------Home-------------
+Home:Everton Away:Norwich Probability: 0.0
+-------Home-------------
+Home:Everton Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Everton Away:Southampton Probability: 0.0
+-------Home-------------
+Home:Everton Away:Tottenham Probability: 0.0
+-------Home-------------
+Home:Everton Away:Watford Probability: 0.0
+-------Home-------------
+Home:Everton Away:West Ham Probability: 0.0
+-------Home-------------
+Home:Everton Away:Wolves Probability: 0.0
+-------Home-------------
+Home:Leicester Away:Arsenal Probability: 0.9999999999999967
+-------Home-------------
+Home:Leicester Away:Aston Villa Probability: 0.9999999999999963
+-------Home-------------
+Home:Leicester Away:Bournemouth Probability: 0.0
+-------Home-------------
+Home:Leicester Away:Brighton Probability: 0.0
+-------Home-------------
+Home:Leicester Away:Burnley Probability: 0.9999999999999949
+-------Home-------------
+Home:Leicester Away:Chelsea Probability: 0.9432824681299479
+-------Home-------------
+Home:Leicester Away:Crystal Palace Probability: 0.9999999999999982
+-------Home-------------
+Home:Leicester Away:Everton Probability: 0.9999999999999999
+-------Home-------------
+Home:Leicester Away:Liverpool Probability: 0.0
+-------Home-------------
+Home:Leicester Away:Man City Probability: 0.0
+-------Home-------------
+Home:Leicester Away:Man United Probability: 0.0
+-------Home-------------
+Home:Leicester Away:Newcastle Probability: 0.9999999999999992
+-------Home-------------
+Home:Leicester Away:Norwich Probability: 0.01021442846193683
+-------Home-------------
+Home:Leicester Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Leicester Away:Southampton Probability: 1.0
+-------Home-------------
+Home:Leicester Away:Tottenham Probability: 0.0
+-------Home-------------
+Home:Leicester Away:Watford Probability: 4.676941537203036E-277
+-------Home-------------
+Home:Leicester Away:West Ham Probability: 0.9999999999999962
+-------Home-------------
+Home:Leicester Away:Wolves Probability: 0.0
+-------Home-------------
+Home:Liverpool Away:Arsenal Probability: 1.0
+-------Home-------------
+Home:Liverpool Away:Aston Villa Probability: 1.0
+-------Home-------------
+Home:Liverpool Away:Bournemouth Probability: 0.9999999999999984
+-------Home-------------
+Home:Liverpool Away:Brighton Probability: 0.0
+-------Home-------------
+Home:Liverpool Away:Burnley Probability: 0.9999999999999998
+-------Home-------------
+Home:Liverpool Away:Chelsea Probability: 1.0
+-------Home-------------
+Home:Liverpool Away:Crystal Palace Probability: 1.0
+-------Home-------------
+Home:Liverpool Away:Everton Probability: 0.9999999999999993
+-------Home-------------
+Home:Liverpool Away:Leicester Probability: 0.9999999999999988
+-------Home-------------
+Home:Liverpool Away:Man City Probability: 0.9999999999999982
+-------Home-------------
+Home:Liverpool Away:Man United Probability: 1.0
+-------Home-------------
+Home:Liverpool Away:Newcastle Probability: 0.9999999999999973
+-------Home-------------
+Home:Liverpool Away:Norwich Probability: 0.9999999999999997
+-------Home-------------
+Home:Liverpool Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Liverpool Away:Southampton Probability: 0.9999999999999984
+-------Home-------------
+Home:Liverpool Away:Tottenham Probability: 0.9999999999999967
+-------Home-------------
+Home:Liverpool Away:Watford Probability: 0.9999999999999984
+-------Home-------------
+Home:Liverpool Away:West Ham Probability: 1.0
+-------Home-------------
+Home:Liverpool Away:Wolves Probability: 0.9999999999999997
+-------Home-------------
+Home:Man City Away:Arsenal Probability: 1.0
+-------Home-------------
+Home:Man City Away:Aston Villa Probability: 0.9999999999999996
+-------Home-------------
+Home:Man City Away:Bournemouth Probability: 0.9999999999999977
+-------Home-------------
+Home:Man City Away:Brighton Probability: 0.0
+-------Home-------------
+Home:Man City Away:Burnley Probability: 1.0
+-------Home-------------
+Home:Man City Away:Chelsea Probability: 1.0
+-------Home-------------
+Home:Man City Away:Crystal Palace Probability: 1.0
+-------Home-------------
+Home:Man City Away:Everton Probability: 0.9999999999999987
+-------Home-------------
+Home:Man City Away:Leicester Probability: 0.9999999999999977
+-------Home-------------
+Home:Man City Away:Liverpool Probability: 0.0
+-------Home-------------
+Home:Man City Away:Man United Probability: 0.9999999999999991
+-------Home-------------
+Home:Man City Away:Newcastle Probability: 0.9999999999999987
+-------Home-------------
+Home:Man City Away:Norwich Probability: 0.9999999999999982
+-------Home-------------
+Home:Man City Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Man City Away:Southampton Probability: 1.0
+-------Home-------------
+Home:Man City Away:Tottenham Probability: 0.9999999999999981
+-------Home-------------
+Home:Man City Away:Watford Probability: 0.9999999999999983
+-------Home-------------
+Home:Man City Away:West Ham Probability: 0.999999999999999
+-------Home-------------
+Home:Man City Away:Wolves Probability: 0.9999999999999982
+-------Home-------------
+Home:Man United Away:Arsenal Probability: 0.9999999999999996
+-------Home-------------
+Home:Man United Away:Aston Villa Probability: 0.999999999999999
+-------Home-------------
+Home:Man United Away:Bournemouth Probability: 0.0
+-------Home-------------
+Home:Man United Away:Brighton Probability: 0.0
+-------Home-------------
+Home:Man United Away:Burnley Probability: 0.999999999999999
+-------Home-------------
+Home:Man United Away:Chelsea Probability: 0.9999999999999982
+-------Home-------------
+Home:Man United Away:Crystal Palace Probability: 1.0
+-------Home-------------
+Home:Man United Away:Everton Probability: 0.9999999999999997
+-------Home-------------
+Home:Man United Away:Leicester Probability: 1.0
+-------Home-------------
+Home:Man United Away:Liverpool Probability: 0.0
+-------Home-------------
+Home:Man United Away:Man City Probability: 0.0
+-------Home-------------
+Home:Man United Away:Newcastle Probability: 0.9999999999999979
+-------Home-------------
+Home:Man United Away:Norwich Probability: 0.9999999999999999
+-------Home-------------
+Home:Man United Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Man United Away:Southampton Probability: 1.0
+-------Home-------------
+Home:Man United Away:Tottenham Probability: 1.1012677327787045E-6
+-------Home-------------
+Home:Man United Away:Watford Probability: 0.999999999999993
+-------Home-------------
+Home:Man United Away:West Ham Probability: 0.999999999999997
+-------Home-------------
+Home:Man United Away:Wolves Probability: 0.0
+-------Home-------------
+Home:Newcastle Away:Arsenal Probability: 0.0
+-------Home-------------
+Home:Newcastle Away:Aston Villa Probability: 0.9999999999999972
+-------Home-------------
+Home:Newcastle Away:Bournemouth Probability: 0.0
+-------Home-------------
+Home:Newcastle Away:Brighton Probability: 0.0
+-------Home-------------
+Home:Newcastle Away:Burnley Probability: 0.0
+-------Home-------------
+Home:Newcastle Away:Chelsea Probability: 0.0
+-------Home-------------
+Home:Newcastle Away:Crystal Palace Probability: 0.999999999999996
+-------Home-------------
+Home:Newcastle Away:Everton Probability: 0.9999999999999949
+-------Home-------------
+Home:Newcastle Away:Leicester Probability: 0.0
+-------Home-------------
+Home:Newcastle Away:Liverpool Probability: 0.0
+-------Home-------------
+Home:Newcastle Away:Man City Probability: 0.0
+-------Home-------------
+Home:Newcastle Away:Man United Probability: 0.0
+-------Home-------------
+Home:Newcastle Away:Norwich Probability: 0.0
+-------Home-------------
+Home:Newcastle Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Newcastle Away:Southampton Probability: 0.0
+-------Home-------------
+Home:Newcastle Away:Tottenham Probability: 0.0
+-------Home-------------
+Home:Newcastle Away:Watford Probability: 0.0
+-------Home-------------
+Home:Newcastle Away:West Ham Probability: 0.0
+-------Home-------------
+Home:Newcastle Away:Wolves Probability: 0.0
+-------Home-------------
+Home:Norwich Away:Arsenal Probability: 0.9999999999999957
+-------Home-------------
+Home:Norwich Away:Aston Villa Probability: 1.0
+-------Home-------------
+Home:Norwich Away:Bournemouth Probability: 0.0
+-------Home-------------
+Home:Norwich Away:Brighton Probability: 0.0
+-------Home-------------
+Home:Norwich Away:Burnley Probability: 0.9999999999999998
+-------Home-------------
+Home:Norwich Away:Chelsea Probability: 4.4496145821962E-81
+-------Home-------------
+Home:Norwich Away:Crystal Palace Probability: 0.9999999999999991
+-------Home-------------
+Home:Norwich Away:Everton Probability: 0.9999999999999984
+-------Home-------------
+Home:Norwich Away:Leicester Probability: 0.9999999999999991
+-------Home-------------
+Home:Norwich Away:Liverpool Probability: 0.0
+-------Home-------------
+Home:Norwich Away:Man City Probability: 0.0
+-------Home-------------
+Home:Norwich Away:Man United Probability: 0.0
+-------Home-------------
+Home:Norwich Away:Newcastle Probability: 0.9999999999999981
+-------Home-------------
+Home:Norwich Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Norwich Away:Southampton Probability: 0.9999999999999959
+-------Home-------------
+Home:Norwich Away:Tottenham Probability: 0.0
+-------Home-------------
+Home:Norwich Away:Watford Probability: 0.0
+-------Home-------------
+Home:Norwich Away:West Ham Probability: 0.9999999999999968
+-------Home-------------
+Home:Norwich Away:Wolves Probability: 0.0
+-------Home-------------
+Home:Sheffield United Away:Arsenal Probability: 0.9999999999999996
+-------Home-------------
+Home:Sheffield United Away:Aston Villa Probability: 0.9999999999999996
+-------Home-------------
+Home:Sheffield United Away:Bournemouth Probability: 0.9999999999999989
+-------Home-------------
+Home:Sheffield United Away:Brighton Probability: 0.9999999999999996
+-------Home-------------
+Home:Sheffield United Away:Burnley Probability: 1.0000000000000002
+-------Home-------------
+Home:Sheffield United Away:Chelsea Probability: 1.0
+-------Home-------------
+Home:Sheffield United Away:Crystal Palace Probability: 1.0000000000000013
+-------Home-------------
+Home:Sheffield United Away:Everton Probability: 0.9999999999999993
+-------Home-------------
+Home:Sheffield United Away:Leicester Probability: 1.0
+-------Home-------------
+Home:Sheffield United Away:Liverpool Probability: 0.9999999999999997
+-------Home-------------
+Home:Sheffield United Away:Man City Probability: 0.9999999999999989
+-------Home-------------
+Home:Sheffield United Away:Man United Probability: 1.0
+-------Home-------------
+Home:Sheffield United Away:Newcastle Probability: 0.9999999999999999
+-------Home-------------
+Home:Sheffield United Away:Norwich Probability: 0.9999999999999994
+-------Home-------------
+Home:Sheffield United Away:Southampton Probability: 0.9999999999999992
+-------Home-------------
+Home:Sheffield United Away:Tottenham Probability: 0.9999999999999989
+-------Home-------------
+Home:Sheffield United Away:Watford Probability: 1.0
+-------Home-------------
+Home:Sheffield United Away:West Ham Probability: 0.9999999999999972
+-------Home-------------
+Home:Sheffield United Away:Wolves Probability: 0.9999999999999996
+-------Home-------------
+Home:Southampton Away:Arsenal Probability: 0.0
+-------Home-------------
+Home:Southampton Away:Aston Villa Probability: 0.9999999999999979
+-------Home-------------
+Home:Southampton Away:Bournemouth Probability: 0.0
+-------Home-------------
+Home:Southampton Away:Brighton Probability: 0.0
+-------Home-------------
+Home:Southampton Away:Burnley Probability: 0.0
+-------Home-------------
+Home:Southampton Away:Chelsea Probability: 0.0
+-------Home-------------
+Home:Southampton Away:Crystal Palace Probability: 0.9999999999999958
+-------Home-------------
+Home:Southampton Away:Everton Probability: 0.9999999999999999
+-------Home-------------
+Home:Southampton Away:Leicester Probability: 0.0
+-------Home-------------
+Home:Southampton Away:Liverpool Probability: 0.0
+-------Home-------------
+Home:Southampton Away:Man City Probability: 0.0
+-------Home-------------
+Home:Southampton Away:Man United Probability: 0.0
+-------Home-------------
+Home:Southampton Away:Newcastle Probability: 0.9999999999999997
+-------Home-------------
+Home:Southampton Away:Norwich Probability: 0.0
+-------Home-------------
+Home:Southampton Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Southampton Away:Tottenham Probability: 0.0
+-------Home-------------
+Home:Southampton Away:Watford Probability: 0.0
+-------Home-------------
+Home:Southampton Away:West Ham Probability: 0.0
+-------Home-------------
+Home:Southampton Away:Wolves Probability: 0.0
+-------Home-------------
+Home:Tottenham Away:Arsenal Probability: 0.9999999999999983
+-------Home-------------
+Home:Tottenham Away:Aston Villa Probability: 1.0
+-------Home-------------
+Home:Tottenham Away:Bournemouth Probability: 0.0
+-------Home-------------
+Home:Tottenham Away:Brighton Probability: 0.0
+-------Home-------------
+Home:Tottenham Away:Burnley Probability: 0.999999999999998
+-------Home-------------
+Home:Tottenham Away:Chelsea Probability: 0.9999999999999979
+-------Home-------------
+Home:Tottenham Away:Crystal Palace Probability: 0.9999999999999976
+-------Home-------------
+Home:Tottenham Away:Everton Probability: 1.0
+-------Home-------------
+Home:Tottenham Away:Leicester Probability: 1.0
+-------Home-------------
+Home:Tottenham Away:Liverpool Probability: 0.0
+-------Home-------------
+Home:Tottenham Away:Man City Probability: 0.0
+-------Home-------------
+Home:Tottenham Away:Man United Probability: 1.0125407631615595E-6
+-------Home-------------
+Home:Tottenham Away:Newcastle Probability: 1.0
+-------Home-------------
+Home:Tottenham Away:Norwich Probability: 0.9999999999999938
+-------Home-------------
+Home:Tottenham Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Tottenham Away:Southampton Probability: 0.9999999999999976
+-------Home-------------
+Home:Tottenham Away:Watford Probability: 0.9999999999801131
+-------Home-------------
+Home:Tottenham Away:West Ham Probability: 1.0
+-------Home-------------
+Home:Tottenham Away:Wolves Probability: 0.0
+-------Home-------------
+Home:Watford Away:Arsenal Probability: 0.9999999999999976
+-------Home-------------
+Home:Watford Away:Aston Villa Probability: 0.999999999999999
+-------Home-------------
+Home:Watford Away:Bournemouth Probability: 0.0
+-------Home-------------
+Home:Watford Away:Brighton Probability: 0.0
+-------Home-------------
+Home:Watford Away:Burnley Probability: 0.9999999999999979
+-------Home-------------
+Home:Watford Away:Chelsea Probability: 3.571558216594174E-135
+-------Home-------------
+Home:Watford Away:Crystal Palace Probability: 1.0
+-------Home-------------
+Home:Watford Away:Everton Probability: 0.9999999999999969
+-------Home-------------
+Home:Watford Away:Leicester Probability: 0.9999999999999942
+-------Home-------------
+Home:Watford Away:Liverpool Probability: 0.0
+-------Home-------------
+Home:Watford Away:Man City Probability: 0.0
+-------Home-------------
+Home:Watford Away:Man United Probability: 0.0
+-------Home-------------
+Home:Watford Away:Newcastle Probability: 0.999999999999998
+-------Home-------------
+Home:Watford Away:Norwich Probability: 0.9999999999999958
+-------Home-------------
+Home:Watford Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Watford Away:Southampton Probability: 0.9999999999999989
+-------Home-------------
+Home:Watford Away:Tottenham Probability: 0.0
+-------Home-------------
+Home:Watford Away:West Ham Probability: 0.9999999999999987
+-------Home-------------
+Home:Watford Away:Wolves Probability: 0.0
+-------Home-------------
+Home:West Ham Away:Arsenal Probability: 0.0
+-------Home-------------
+Home:West Ham Away:Aston Villa Probability: 1.0
+-------Home-------------
+Home:West Ham Away:Bournemouth Probability: 0.0
+-------Home-------------
+Home:West Ham Away:Brighton Probability: 0.0
+-------Home-------------
+Home:West Ham Away:Burnley Probability: 0.0
+-------Home-------------
+Home:West Ham Away:Chelsea Probability: 0.0
+-------Home-------------
+Home:West Ham Away:Crystal Palace Probability: 0.9999999999999993
+-------Home-------------
+Home:West Ham Away:Everton Probability: 0.9999999999999951
+-------Home-------------
+Home:West Ham Away:Leicester Probability: 0.0
+-------Home-------------
+Home:West Ham Away:Liverpool Probability: 0.0
+-------Home-------------
+Home:West Ham Away:Man City Probability: 0.0
+-------Home-------------
+Home:West Ham Away:Man United Probability: 0.0
+-------Home-------------
+Home:West Ham Away:Newcastle Probability: 0.9999999999999984
+-------Home-------------
+Home:West Ham Away:Norwich Probability: 0.0
+-------Home-------------
+Home:West Ham Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:West Ham Away:Southampton Probability: 0.9999999999999973
+-------Home-------------
+Home:West Ham Away:Tottenham Probability: 0.0
+-------Home-------------
+Home:West Ham Away:Watford Probability: 0.0
+-------Home-------------
+Home:West Ham Away:Wolves Probability: 0.0
+-------Home-------------
+Home:Wolves Away:Arsenal Probability: 0.9999999999999993
+-------Home-------------
+Home:Wolves Away:Aston Villa Probability: 0.9999999999999979
+-------Home-------------
+Home:Wolves Away:Bournemouth Probability: 0.0
+-------Home-------------
+Home:Wolves Away:Brighton Probability: 0.0
+-------Home-------------
+Home:Wolves Away:Burnley Probability: 1.0
+-------Home-------------
+Home:Wolves Away:Chelsea Probability: 0.9999999999999963
+-------Home-------------
+Home:Wolves Away:Crystal Palace Probability: 0.9999999999999991
+-------Home-------------
+Home:Wolves Away:Everton Probability: 1.0
+-------Home-------------
+Home:Wolves Away:Leicester Probability: 0.9999999999999984
+-------Home-------------
+Home:Wolves Away:Liverpool Probability: 0.0
+-------Home-------------
+Home:Wolves Away:Man City Probability: 0.0
+-------Home-------------
+Home:Wolves Away:Man United Probability: 0.9999999999999997
+-------Home-------------
+Home:Wolves Away:Newcastle Probability: 1.0
+-------Home-------------
+Home:Wolves Away:Norwich Probability: 1.0
+-------Home-------------
+Home:Wolves Away:Sheffield United Probability: 0.0
+-------Home-------------
+Home:Wolves Away:Southampton Probability: 0.9999999999999982
+-------Home-------------
+Home:Wolves Away:Tottenham Probability: 0.9999999999999953
+-------Home-------------
+Home:Wolves Away:Watford Probability: 0.9999999999999947
+-------Home-------------
+Home:Wolves Away:West Ham Probability: 0.9999999999999989
+-------Away-------------
+Home:Aston Villa Away:Arsenal Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:Arsenal Probability: 0.9999999999999992
+-------Away-------------
+Home:Brighton Away:Arsenal Probability: 1.0
+-------Away-------------
+Home:Burnley Away:Arsenal Probability: 2.2412683902270203E-9
+-------Away-------------
+Home:Chelsea Away:Arsenal Probability: 0.9999999999999946
+-------Away-------------
+Home:Crystal Palace Away:Arsenal Probability: 0.0
+-------Away-------------
+Home:Everton Away:Arsenal Probability: 0.0
+-------Away-------------
+Home:Leicester Away:Arsenal Probability: 0.9999999999999987
+-------Away-------------
+Home:Liverpool Away:Arsenal Probability: 0.9999999999999981
+-------Away-------------
+Home:Man City Away:Arsenal Probability: 1.0
+-------Away-------------
+Home:Man United Away:Arsenal Probability: 0.9999999999999983
+-------Away-------------
+Home:Newcastle Away:Arsenal Probability: 0.0
+-------Away-------------
+Home:Norwich Away:Arsenal Probability: 0.9999999999999953
+-------Away-------------
+Home:Sheffield United Away:Arsenal Probability: 1.0000000000000002
+-------Away-------------
+Home:Southampton Away:Arsenal Probability: 0.0
+-------Away-------------
+Home:Tottenham Away:Arsenal Probability: 0.999999999999997
+-------Away-------------
+Home:Watford Away:Arsenal Probability: 0.9999999999999979
+-------Away-------------
+Home:West Ham Away:Arsenal Probability: 0.0
+-------Away-------------
+Home:Wolves Away:Arsenal Probability: 0.9999999999999982
+-------Away-------------
+Home:Arsenal Away:Aston Villa Probability: 0.9999999999999986
+-------Away-------------
+Home:Bournemouth Away:Aston Villa Probability: 0.9999999999999996
+-------Away-------------
+Home:Brighton Away:Aston Villa Probability: 0.9999999999999999
+-------Away-------------
+Home:Burnley Away:Aston Villa Probability: 0.9999999999999989
+-------Away-------------
+Home:Chelsea Away:Aston Villa Probability: 1.0
+-------Away-------------
+Home:Crystal Palace Away:Aston Villa Probability: 0.9999999999999988
+-------Away-------------
+Home:Everton Away:Aston Villa Probability: 0.9999999999999984
+-------Away-------------
+Home:Leicester Away:Aston Villa Probability: 1.0
+-------Away-------------
+Home:Liverpool Away:Aston Villa Probability: 0.9999999999999994
+-------Away-------------
+Home:Man City Away:Aston Villa Probability: 0.999999999999998
+-------Away-------------
+Home:Man United Away:Aston Villa Probability: 1.0
+-------Away-------------
+Home:Newcastle Away:Aston Villa Probability: 0.9999999999999974
+-------Away-------------
+Home:Norwich Away:Aston Villa Probability: 1.0000000000000002
+-------Away-------------
+Home:Sheffield United Away:Aston Villa Probability: 0.9999999999999997
+-------Away-------------
+Home:Southampton Away:Aston Villa Probability: 1.0
+-------Away-------------
+Home:Tottenham Away:Aston Villa Probability: 0.9999999999999988
+-------Away-------------
+Home:Watford Away:Aston Villa Probability: 1.0
+-------Away-------------
+Home:West Ham Away:Aston Villa Probability: 0.9999999999999977
+-------Away-------------
+Home:Wolves Away:Aston Villa Probability: 0.9999999999999989
+-------Away-------------
+Home:Arsenal Away:Bournemouth Probability: 0.0
+-------Away-------------
+Home:Aston Villa Away:Bournemouth Probability: 0.0
+-------Away-------------
+Home:Brighton Away:Bournemouth Probability: 0.9999999999999994
+-------Away-------------
+Home:Burnley Away:Bournemouth Probability: 0.0
+-------Away-------------
+Home:Chelsea Away:Bournemouth Probability: 0.0
+-------Away-------------
+Home:Crystal Palace Away:Bournemouth Probability: 0.0
+-------Away-------------
+Home:Everton Away:Bournemouth Probability: 0.0
+-------Away-------------
+Home:Leicester Away:Bournemouth Probability: 0.0
+-------Away-------------
+Home:Liverpool Away:Bournemouth Probability: 0.9999999999999988
+-------Away-------------
+Home:Man City Away:Bournemouth Probability: 0.9999999999999982
+-------Away-------------
+Home:Man United Away:Bournemouth Probability: 0.0
+-------Away-------------
+Home:Newcastle Away:Bournemouth Probability: 0.0
+-------Away-------------
+Home:Norwich Away:Bournemouth Probability: 0.0
+-------Away-------------
+Home:Sheffield United Away:Bournemouth Probability: 0.9999999999999997
+-------Away-------------
+Home:Southampton Away:Bournemouth Probability: 0.0
+-------Away-------------
+Home:Tottenham Away:Bournemouth Probability: 0.0
+-------Away-------------
+Home:Watford Away:Bournemouth Probability: 0.0
+-------Away-------------
+Home:West Ham Away:Bournemouth Probability: 0.0
+-------Away-------------
+Home:Wolves Away:Bournemouth Probability: 0.0
+-------Away-------------
+Home:Arsenal Away:Brighton Probability: 0.0
+-------Away-------------
+Home:Aston Villa Away:Brighton Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:Brighton Probability: 0.0
+-------Away-------------
+Home:Burnley Away:Brighton Probability: 0.0
+-------Away-------------
+Home:Chelsea Away:Brighton Probability: 0.0
+-------Away-------------
+Home:Crystal Palace Away:Brighton Probability: 0.0
+-------Away-------------
+Home:Everton Away:Brighton Probability: 0.0
+-------Away-------------
+Home:Leicester Away:Brighton Probability: 0.0
+-------Away-------------
+Home:Liverpool Away:Brighton Probability: 0.0
+-------Away-------------
+Home:Man City Away:Brighton Probability: 0.0
+-------Away-------------
+Home:Man United Away:Brighton Probability: 0.0
+-------Away-------------
+Home:Newcastle Away:Brighton Probability: 0.0
+-------Away-------------
+Home:Norwich Away:Brighton Probability: 0.0
+-------Away-------------
+Home:Sheffield United Away:Brighton Probability: 0.9999999999999988
+-------Away-------------
+Home:Southampton Away:Brighton Probability: 0.0
+-------Away-------------
+Home:Tottenham Away:Brighton Probability: 0.0
+-------Away-------------
+Home:Watford Away:Brighton Probability: 0.0
+-------Away-------------
+Home:West Ham Away:Brighton Probability: 0.0
+-------Away-------------
+Home:Wolves Away:Brighton Probability: 0.0
+-------Away-------------
+Home:Arsenal Away:Burnley Probability: 0.0
+-------Away-------------
+Home:Aston Villa Away:Burnley Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:Burnley Probability: 0.9999999999999996
+-------Away-------------
+Home:Brighton Away:Burnley Probability: 1.0
+-------Away-------------
+Home:Chelsea Away:Burnley Probability: 0.9999999999999977
+-------Away-------------
+Home:Crystal Palace Away:Burnley Probability: 0.0
+-------Away-------------
+Home:Everton Away:Burnley Probability: 0.0
+-------Away-------------
+Home:Leicester Away:Burnley Probability: 0.9999999999999968
+-------Away-------------
+Home:Liverpool Away:Burnley Probability: 0.9999999999999989
+-------Away-------------
+Home:Man City Away:Burnley Probability: 0.9999999999999999
+-------Away-------------
+Home:Man United Away:Burnley Probability: 0.9999999999999983
+-------Away-------------
+Home:Newcastle Away:Burnley Probability: 0.0
+-------Away-------------
+Home:Norwich Away:Burnley Probability: 0.9999999999999952
+-------Away-------------
+Home:Sheffield United Away:Burnley Probability: 0.9999999999999992
+-------Away-------------
+Home:Southampton Away:Burnley Probability: 0.0
+-------Away-------------
+Home:Tottenham Away:Burnley Probability: 0.9999999999999982
+-------Away-------------
+Home:Watford Away:Burnley Probability: 0.9999999999999983
+-------Away-------------
+Home:West Ham Away:Burnley Probability: 0.0
+-------Away-------------
+Home:Wolves Away:Burnley Probability: 0.9999999999999978
+-------Away-------------
+Home:Arsenal Away:Chelsea Probability: 0.0
+-------Away-------------
+Home:Aston Villa Away:Chelsea Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:Chelsea Probability: 0.999999999999998
+-------Away-------------
+Home:Brighton Away:Chelsea Probability: 1.0
+-------Away-------------
+Home:Burnley Away:Chelsea Probability: 0.0
+-------Away-------------
+Home:Crystal Palace Away:Chelsea Probability: 0.0
+-------Away-------------
+Home:Everton Away:Chelsea Probability: 0.0
+-------Away-------------
+Home:Leicester Away:Chelsea Probability: 0.0
+-------Away-------------
+Home:Liverpool Away:Chelsea Probability: 1.0
+-------Away-------------
+Home:Man City Away:Chelsea Probability: 0.9999999999999982
+-------Away-------------
+Home:Man United Away:Chelsea Probability: 0.9999999999999986
+-------Away-------------
+Home:Newcastle Away:Chelsea Probability: 0.0
+-------Away-------------
+Home:Norwich Away:Chelsea Probability: 0.0
+-------Away-------------
+Home:Sheffield United Away:Chelsea Probability: 1.0000000000000004
+-------Away-------------
+Home:Southampton Away:Chelsea Probability: 0.0
+-------Away-------------
+Home:Tottenham Away:Chelsea Probability: 1.0
+-------Away-------------
+Home:Watford Away:Chelsea Probability: 9.687124370155213E-154
+-------Away-------------
+Home:West Ham Away:Chelsea Probability: 0.0
+-------Away-------------
+Home:Wolves Away:Chelsea Probability: 0.9999999999999998
+-------Away-------------
+Home:Arsenal Away:Crystal Palace Probability: 0.9999999999999999
+-------Away-------------
+Home:Aston Villa Away:Crystal Palace Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:Crystal Palace Probability: 0.9999999999999984
+-------Away-------------
+Home:Brighton Away:Crystal Palace Probability: 1.0
+-------Away-------------
+Home:Burnley Away:Crystal Palace Probability: 0.9999999999999998
+-------Away-------------
+Home:Chelsea Away:Crystal Palace Probability: 0.9999999999999991
+-------Away-------------
+Home:Everton Away:Crystal Palace Probability: 0.9999999999999936
+-------Away-------------
+Home:Leicester Away:Crystal Palace Probability: 0.9999999999999991
+-------Away-------------
+Home:Liverpool Away:Crystal Palace Probability: 0.9999999999999997
+-------Away-------------
+Home:Man City Away:Crystal Palace Probability: 1.0
+-------Away-------------
+Home:Man United Away:Crystal Palace Probability: 0.999999999999999
+-------Away-------------
+Home:Newcastle Away:Crystal Palace Probability: 0.999999999999996
+-------Away-------------
+Home:Norwich Away:Crystal Palace Probability: 0.9999999999999982
+-------Away-------------
+Home:Sheffield United Away:Crystal Palace Probability: 0.9999999999999993
+-------Away-------------
+Home:Southampton Away:Crystal Palace Probability: 0.9999999999999944
+-------Away-------------
+Home:Tottenham Away:Crystal Palace Probability: 0.9999999999999971
+-------Away-------------
+Home:Watford Away:Crystal Palace Probability: 0.9999999999999987
+-------Away-------------
+Home:West Ham Away:Crystal Palace Probability: 0.9999999999999977
+-------Away-------------
+Home:Wolves Away:Crystal Palace Probability: 0.9999999999999993
+-------Away-------------
+Home:Arsenal Away:Everton Probability: 0.9999999999999994
+-------Away-------------
+Home:Aston Villa Away:Everton Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:Everton Probability: 0.9999999999999991
+-------Away-------------
+Home:Brighton Away:Everton Probability: 0.9999999999999983
+-------Away-------------
+Home:Burnley Away:Everton Probability: 0.9999999999999973
+-------Away-------------
+Home:Chelsea Away:Everton Probability: 1.0
+-------Away-------------
+Home:Crystal Palace Away:Everton Probability: 0.0
+-------Away-------------
+Home:Leicester Away:Everton Probability: 0.9999999999999988
+-------Away-------------
+Home:Liverpool Away:Everton Probability: 0.9999999999999987
+-------Away-------------
+Home:Man City Away:Everton Probability: 1.0
+-------Away-------------
+Home:Man United Away:Everton Probability: 0.9999999999999968
+-------Away-------------
+Home:Newcastle Away:Everton Probability: 0.9999999999999929
+-------Away-------------
+Home:Norwich Away:Everton Probability: 0.9999999999999986
+-------Away-------------
+Home:Sheffield United Away:Everton Probability: 0.9999999999999994
+-------Away-------------
+Home:Southampton Away:Everton Probability: 0.9999999999999993
+-------Away-------------
+Home:Tottenham Away:Everton Probability: 1.0
+-------Away-------------
+Home:Watford Away:Everton Probability: 0.9999999999999984
+-------Away-------------
+Home:West Ham Away:Everton Probability: 0.9999999999999976
+-------Away-------------
+Home:Wolves Away:Everton Probability: 0.9999999999999989
+-------Away-------------
+Home:Arsenal Away:Leicester Probability: 0.0
+-------Away-------------
+Home:Aston Villa Away:Leicester Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:Leicester Probability: 0.9999999999999963
+-------Away-------------
+Home:Brighton Away:Leicester Probability: 0.9999999999999998
+-------Away-------------
+Home:Burnley Away:Leicester Probability: 0.0
+-------Away-------------
+Home:Chelsea Away:Leicester Probability: 0.9999999999999962
+-------Away-------------
+Home:Crystal Palace Away:Leicester Probability: 0.0
+-------Away-------------
+Home:Everton Away:Leicester Probability: 0.0
+-------Away-------------
+Home:Liverpool Away:Leicester Probability: 0.9999999999999969
+-------Away-------------
+Home:Man City Away:Leicester Probability: 0.9999999999999993
+-------Away-------------
+Home:Man United Away:Leicester Probability: 1.0
+-------Away-------------
+Home:Newcastle Away:Leicester Probability: 0.0
+-------Away-------------
+Home:Norwich Away:Leicester Probability: 1.0
+-------Away-------------
+Home:Sheffield United Away:Leicester Probability: 0.9999999999999993
+-------Away-------------
+Home:Southampton Away:Leicester Probability: 0.0
+-------Away-------------
+Home:Tottenham Away:Leicester Probability: 0.9999999999999961
+-------Away-------------
+Home:Watford Away:Leicester Probability: 0.9999999999999947
+-------Away-------------
+Home:West Ham Away:Leicester Probability: 0.0
+-------Away-------------
+Home:Wolves Away:Leicester Probability: 0.9999999999999992
+-------Away-------------
+Home:Arsenal Away:Liverpool Probability: 0.0
+-------Away-------------
+Home:Aston Villa Away:Liverpool Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:Liverpool Probability: 0.0
+-------Away-------------
+Home:Brighton Away:Liverpool Probability: 0.999999999999998
+-------Away-------------
+Home:Burnley Away:Liverpool Probability: 0.0
+-------Away-------------
+Home:Chelsea Away:Liverpool Probability: 0.0
+-------Away-------------
+Home:Crystal Palace Away:Liverpool Probability: 0.0
+-------Away-------------
+Home:Everton Away:Liverpool Probability: 0.0
+-------Away-------------
+Home:Leicester Away:Liverpool Probability: 0.0
+-------Away-------------
+Home:Man City Away:Liverpool Probability: 0.0
+-------Away-------------
+Home:Man United Away:Liverpool Probability: 0.0
+-------Away-------------
+Home:Newcastle Away:Liverpool Probability: 0.0
+-------Away-------------
+Home:Norwich Away:Liverpool Probability: 0.0
+-------Away-------------
+Home:Sheffield United Away:Liverpool Probability: 0.9999999999999994
+-------Away-------------
+Home:Southampton Away:Liverpool Probability: 0.0
+-------Away-------------
+Home:Tottenham Away:Liverpool Probability: 0.0
+-------Away-------------
+Home:Watford Away:Liverpool Probability: 0.0
+-------Away-------------
+Home:West Ham Away:Liverpool Probability: 0.0
+-------Away-------------
+Home:Wolves Away:Liverpool Probability: 0.0
+-------Away-------------
+Home:Arsenal Away:Man City Probability: 0.0
+-------Away-------------
+Home:Aston Villa Away:Man City Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:Man City Probability: 0.0
+-------Away-------------
+Home:Brighton Away:Man City Probability: 0.9999999999999993
+-------Away-------------
+Home:Burnley Away:Man City Probability: 0.0
+-------Away-------------
+Home:Chelsea Away:Man City Probability: 0.0
+-------Away-------------
+Home:Crystal Palace Away:Man City Probability: 0.0
+-------Away-------------
+Home:Everton Away:Man City Probability: 0.0
+-------Away-------------
+Home:Leicester Away:Man City Probability: 0.0
+-------Away-------------
+Home:Liverpool Away:Man City Probability: 0.9999999999999982
+-------Away-------------
+Home:Man United Away:Man City Probability: 0.0
+-------Away-------------
+Home:Newcastle Away:Man City Probability: 0.0
+-------Away-------------
+Home:Norwich Away:Man City Probability: 0.0
+-------Away-------------
+Home:Sheffield United Away:Man City Probability: 1.0
+-------Away-------------
+Home:Southampton Away:Man City Probability: 0.0
+-------Away-------------
+Home:Tottenham Away:Man City Probability: 0.0
+-------Away-------------
+Home:Watford Away:Man City Probability: 0.0
+-------Away-------------
+Home:West Ham Away:Man City Probability: 0.0
+-------Away-------------
+Home:Wolves Away:Man City Probability: 0.0
+-------Away-------------
+Home:Arsenal Away:Man United Probability: 0.0
+-------Away-------------
+Home:Aston Villa Away:Man United Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:Man United Probability: 1.0
+-------Away-------------
+Home:Brighton Away:Man United Probability: 0.9999999999999991
+-------Away-------------
+Home:Burnley Away:Man United Probability: 0.0
+-------Away-------------
+Home:Chelsea Away:Man United Probability: 0.0
+-------Away-------------
+Home:Crystal Palace Away:Man United Probability: 0.0
+-------Away-------------
+Home:Everton Away:Man United Probability: 0.0
+-------Away-------------
+Home:Leicester Away:Man United Probability: 0.0
+-------Away-------------
+Home:Liverpool Away:Man United Probability: 0.9999999999999999
+-------Away-------------
+Home:Man City Away:Man United Probability: 0.9999999999999956
+-------Away-------------
+Home:Newcastle Away:Man United Probability: 0.0
+-------Away-------------
+Home:Norwich Away:Man United Probability: 0.0
+-------Away-------------
+Home:Sheffield United Away:Man United Probability: 1.0
+-------Away-------------
+Home:Southampton Away:Man United Probability: 0.0
+-------Away-------------
+Home:Tottenham Away:Man United Probability: 0.999999999999999
+-------Away-------------
+Home:Watford Away:Man United Probability: 0.0
+-------Away-------------
+Home:West Ham Away:Man United Probability: 0.0
+-------Away-------------
+Home:Wolves Away:Man United Probability: 0.9999999999999997
+-------Away-------------
+Home:Arsenal Away:Newcastle Probability: 0.9999999999999972
+-------Away-------------
+Home:Aston Villa Away:Newcastle Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:Newcastle Probability: 0.9999999999999993
+-------Away-------------
+Home:Brighton Away:Newcastle Probability: 1.0
+-------Away-------------
+Home:Burnley Away:Newcastle Probability: 0.9999999999999971
+-------Away-------------
+Home:Chelsea Away:Newcastle Probability: 0.999999999999998
+-------Away-------------
+Home:Crystal Palace Away:Newcastle Probability: 0.0
+-------Away-------------
+Home:Everton Away:Newcastle Probability: 0.0
+-------Away-------------
+Home:Leicester Away:Newcastle Probability: 0.9999999999999969
+-------Away-------------
+Home:Liverpool Away:Newcastle Probability: 0.9999999999999996
+-------Away-------------
+Home:Man City Away:Newcastle Probability: 0.9999999999999987
+-------Away-------------
+Home:Man United Away:Newcastle Probability: 1.0000000000000018
+-------Away-------------
+Home:Norwich Away:Newcastle Probability: 1.0
+-------Away-------------
+Home:Sheffield United Away:Newcastle Probability: 1.0
+-------Away-------------
+Home:Southampton Away:Newcastle Probability: 0.9999999999999987
+-------Away-------------
+Home:Tottenham Away:Newcastle Probability: 0.9999999999999996
+-------Away-------------
+Home:Watford Away:Newcastle Probability: 0.9999999999999986
+-------Away-------------
+Home:West Ham Away:Newcastle Probability: 0.9999999999999977
+-------Away-------------
+Home:Wolves Away:Newcastle Probability: 0.9999999999999984
+-------Away-------------
+Home:Arsenal Away:Norwich Probability: 0.0
+-------Away-------------
+Home:Aston Villa Away:Norwich Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:Norwich Probability: 0.9999999999999976
+-------Away-------------
+Home:Brighton Away:Norwich Probability: 1.0
+-------Away-------------
+Home:Burnley Away:Norwich Probability: 0.0
+-------Away-------------
+Home:Chelsea Away:Norwich Probability: 0.9999999999999977
+-------Away-------------
+Home:Crystal Palace Away:Norwich Probability: 0.0
+-------Away-------------
+Home:Everton Away:Norwich Probability: 0.0
+-------Away-------------
+Home:Leicester Away:Norwich Probability: 0.0
+-------Away-------------
+Home:Liverpool Away:Norwich Probability: 0.9999999999999998
+-------Away-------------
+Home:Man City Away:Norwich Probability: 0.999999999999998
+-------Away-------------
+Home:Man United Away:Norwich Probability: 0.9999999999999988
+-------Away-------------
+Home:Newcastle Away:Norwich Probability: 0.0
+-------Away-------------
+Home:Sheffield United Away:Norwich Probability: 1.0
+-------Away-------------
+Home:Southampton Away:Norwich Probability: 0.0
+-------Away-------------
+Home:Tottenham Away:Norwich Probability: 1.0
+-------Away-------------
+Home:Watford Away:Norwich Probability: 0.999999999999996
+-------Away-------------
+Home:West Ham Away:Norwich Probability: 0.0
+-------Away-------------
+Home:Wolves Away:Norwich Probability: 1.0
+-------Away-------------
+Home:Arsenal Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Aston Villa Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Brighton Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Burnley Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Chelsea Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Crystal Palace Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Everton Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Leicester Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Liverpool Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Man City Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Man United Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Newcastle Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Norwich Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Southampton Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Tottenham Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Watford Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:West Ham Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Wolves Away:Sheffield United Probability: 0.0
+-------Away-------------
+Home:Arsenal Away:Southampton Probability: 0.9999999999999986
+-------Away-------------
+Home:Aston Villa Away:Southampton Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:Southampton Probability: 0.9999999999999998
+-------Away-------------
+Home:Brighton Away:Southampton Probability: 0.9999999999999988
+-------Away-------------
+Home:Burnley Away:Southampton Probability: 0.9999999999999997
+-------Away-------------
+Home:Chelsea Away:Southampton Probability: 1.0
+-------Away-------------
+Home:Crystal Palace Away:Southampton Probability: 0.0
+-------Away-------------
+Home:Everton Away:Southampton Probability: 0.0
+-------Away-------------
+Home:Leicester Away:Southampton Probability: 0.999999999999998
+-------Away-------------
+Home:Liverpool Away:Southampton Probability: 1.0
+-------Away-------------
+Home:Man City Away:Southampton Probability: 0.9999999999999994
+-------Away-------------
+Home:Man United Away:Southampton Probability: 0.9999999999999966
+-------Away-------------
+Home:Newcastle Away:Southampton Probability: 0.0
+-------Away-------------
+Home:Norwich Away:Southampton Probability: 0.9999999999999997
+-------Away-------------
+Home:Sheffield United Away:Southampton Probability: 0.9999999999999993
+-------Away-------------
+Home:Tottenham Away:Southampton Probability: 0.9999999999999998
+-------Away-------------
+Home:Watford Away:Southampton Probability: 0.9999999999999984
+-------Away-------------
+Home:West Ham Away:Southampton Probability: 0.9999999999999997
+-------Away-------------
+Home:Wolves Away:Southampton Probability: 0.9999999999999982
+-------Away-------------
+Home:Arsenal Away:Tottenham Probability: 0.0
+-------Away-------------
+Home:Aston Villa Away:Tottenham Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:Tottenham Probability: 0.9999999999999981
+-------Away-------------
+Home:Brighton Away:Tottenham Probability: 1.0
+-------Away-------------
+Home:Burnley Away:Tottenham Probability: 0.0
+-------Away-------------
+Home:Chelsea Away:Tottenham Probability: 0.0
+-------Away-------------
+Home:Crystal Palace Away:Tottenham Probability: 0.0
+-------Away-------------
+Home:Everton Away:Tottenham Probability: 0.0
+-------Away-------------
+Home:Leicester Away:Tottenham Probability: 0.0
+-------Away-------------
+Home:Liverpool Away:Tottenham Probability: 0.9999999999999998
+-------Away-------------
+Home:Man City Away:Tottenham Probability: 1.0
+-------Away-------------
+Home:Man United Away:Tottenham Probability: 0.39190187746249133
+-------Away-------------
+Home:Newcastle Away:Tottenham Probability: 0.0
+-------Away-------------
+Home:Norwich Away:Tottenham Probability: 0.0
+-------Away-------------
+Home:Sheffield United Away:Tottenham Probability: 1.0000000000000007
+-------Away-------------
+Home:Southampton Away:Tottenham Probability: 0.0
+-------Away-------------
+Home:Watford Away:Tottenham Probability: 0.0
+-------Away-------------
+Home:West Ham Away:Tottenham Probability: 0.0
+-------Away-------------
+Home:Wolves Away:Tottenham Probability: 0.9999999999999994
+-------Away-------------
+Home:Arsenal Away:Watford Probability: 0.0
+-------Away-------------
+Home:Aston Villa Away:Watford Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:Watford Probability: 0.9999999999999989
+-------Away-------------
+Home:Brighton Away:Watford Probability: 1.0
+-------Away-------------
+Home:Burnley Away:Watford Probability: 0.0
+-------Away-------------
+Home:Chelsea Away:Watford Probability: 0.9999999999999941
+-------Away-------------
+Home:Crystal Palace Away:Watford Probability: 0.0
+-------Away-------------
+Home:Everton Away:Watford Probability: 0.0
+-------Away-------------
+Home:Leicester Away:Watford Probability: 0.0
+-------Away-------------
+Home:Liverpool Away:Watford Probability: 1.0
+-------Away-------------
+Home:Man City Away:Watford Probability: 1.0
+-------Away-------------
+Home:Man United Away:Watford Probability: 0.9999999999999974
+-------Away-------------
+Home:Newcastle Away:Watford Probability: 0.0
+-------Away-------------
+Home:Norwich Away:Watford Probability: 0.0
+-------Away-------------
+Home:Sheffield United Away:Watford Probability: 0.9999999999999996
+-------Away-------------
+Home:Southampton Away:Watford Probability: 0.0
+-------Away-------------
+Home:Tottenham Away:Watford Probability: 0.999999999999999
+-------Away-------------
+Home:West Ham Away:Watford Probability: 0.0
+-------Away-------------
+Home:Wolves Away:Watford Probability: 0.9999999999999991
+-------Away-------------
+Home:Arsenal Away:West Ham Probability: 0.9999999999999981
+-------Away-------------
+Home:Aston Villa Away:West Ham Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:West Ham Probability: 0.9999999999999994
+-------Away-------------
+Home:Brighton Away:West Ham Probability: 0.9999999999999992
+-------Away-------------
+Home:Burnley Away:West Ham Probability: 0.9999999999999963
+-------Away-------------
+Home:Chelsea Away:West Ham Probability: 0.9999999999999996
+-------Away-------------
+Home:Crystal Palace Away:West Ham Probability: 0.0
+-------Away-------------
+Home:Everton Away:West Ham Probability: 0.0
+-------Away-------------
+Home:Leicester Away:West Ham Probability: 0.9999999999999996
+-------Away-------------
+Home:Liverpool Away:West Ham Probability: 0.9999999999999987
+-------Away-------------
+Home:Man City Away:West Ham Probability: 0.9999999999999982
+-------Away-------------
+Home:Man United Away:West Ham Probability: 1.0
+-------Away-------------
+Home:Newcastle Away:West Ham Probability: 0.0
+-------Away-------------
+Home:Norwich Away:West Ham Probability: 0.9999999999999958
+-------Away-------------
+Home:Sheffield United Away:West Ham Probability: 1.0000000000000007
+-------Away-------------
+Home:Southampton Away:West Ham Probability: 0.0
+-------Away-------------
+Home:Tottenham Away:West Ham Probability: 0.9999999999999986
+-------Away-------------
+Home:Watford Away:West Ham Probability: 0.9999999999999976
+-------Away-------------
+Home:Wolves Away:West Ham Probability: 0.9999999999999981
+-------Away-------------
+Home:Arsenal Away:Wolves Probability: 0.0
+-------Away-------------
+Home:Aston Villa Away:Wolves Probability: 0.0
+-------Away-------------
+Home:Bournemouth Away:Wolves Probability: 0.9999999999999996
+-------Away-------------
+Home:Brighton Away:Wolves Probability: 0.9999999999999981
+-------Away-------------
+Home:Burnley Away:Wolves Probability: 0.0
+-------Away-------------
+Home:Chelsea Away:Wolves Probability: 0.0
+-------Away-------------
+Home:Crystal Palace Away:Wolves Probability: 0.0
+-------Away-------------
+Home:Everton Away:Wolves Probability: 0.0
+-------Away-------------
+Home:Leicester Away:Wolves Probability: 0.0
+-------Away-------------
+Home:Liverpool Away:Wolves Probability: 0.9999999999999993
+-------Away-------------
+Home:Man City Away:Wolves Probability: 0.9999999999999949
+-------Away-------------
+Home:Man United Away:Wolves Probability: 0.0
+-------Away-------------
+Home:Newcastle Away:Wolves Probability: 0.0
+-------Away-------------
+Home:Norwich Away:Wolves Probability: 0.0
+-------Away-------------
+Home:Sheffield United Away:Wolves Probability: 0.9999999999999993
+-------Away-------------
+Home:Southampton Away:Wolves Probability: 0.0
+-------Away-------------
+Home:Tottenham Away:Wolves Probability: 0.0
+-------Away-------------
+Home:Watford Away:Wolves Probability: 0.0
+-------Away-------------
+Home:West Ham Away:Wolves Probability: 0.0
+No.1  TeamName:Wolves  score:219
+No.2  TeamName:Sheffield United  score:210
+No.3  TeamName:Liverpool  score:165
+No.4  TeamName:Brighton  score:165
+No.5  TeamName:Man City  score:165
+No.6  TeamName:Bournemouth  score:156
+No.7  TeamName:West Ham  score:144
+No.8  TeamName:Tottenham  score:144
+No.9  TeamName:Watford  score:144
+No.10  TeamName:Man United  score:141
+No.11  TeamName:Norwich  score:138
+No.12  TeamName:Chelsea  score:138
+No.13  TeamName:Southampton  score:135
+No.14  TeamName:Leicester  score:132
+No.15  TeamName:Newcastle  score:129
+No.16  TeamName:Burnley  score:126
+No.17  TeamName:Arsenal  score:123
+No.18  TeamName:Everton  score:120
+No.19  TeamName:Crystal Palace  score:117
+No.20  TeamName:Aston Villa  score:108
