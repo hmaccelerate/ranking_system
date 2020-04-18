@@ -37,10 +37,11 @@ public class Simulator {
                 correctPrediction++;
             else if (goalDifference<0&&probability<0.5)
                 correctPrediction++;
-
+            else if (goalDifference==00&&probability==0.5)
+                correctPrediction++;
             String matchInfo=String.format("Match Info: Date:%tD,  Home team:%s ; AwayTeam:%s; Home goal:%s, Away Goal:%s ", match.getDate(),
                     match.getHome(),match.getAway(),match.getHomeGoals(),match.getAwayGoals());
-            String eloInfo=String.format("Home team ELO:%s ; AwayTeam ELO :%s; P(Team1 beats Teams): %f",
+            String eloInfo=String.format("Home team ELO:%s ; AwayTeam ELO :%s; P(Team1 beats Team2): %f",
                     homeTeam.getElo(),awayTeam.getElo(),probability);
 //            System.out.println("-----------------------------------------------");
 //            System.out.println(matchInfo);
@@ -103,20 +104,19 @@ public class Simulator {
             }
             System.out.println(matches.size());
         }
-        Map<String,List<Match>> splitData=trainTestSplit(matches, 0.8);
-
-        Simulator simulator=new Simulator();
 
         System.out.println("--------------------Tuning parameters to find the best parameter---------------------");
+        Map<String,List<Match>> splitData=trainTestSplit(matches, 0.8);
+        Simulator simulator=new Simulator();
         int[] startPoints=new int[]{1200,1700,2000,2500};
         int[] kValues=new int[]{30,50,70,90};
         String[] probFunctions=new String[]{"logistic","normal"};
-        double bestPrecision=0; int bestStartPoint=0,bestK=0;  String bestProbFunction="";Map<String, Team> bestTeamsMap = null;
+        double bestPrecision=0; int bestStartPoint=0,bestK=0;  String bestProbFunction="";HashMap<String, Team> bestTeamsMap  = new HashMap<>();
 
         for (int startPoint: startPoints){
             for (int k:kValues){
                 for (String probFunction:probFunctions){
-                    Map<String, Team> teamsMap = new HashMap<>();
+                    HashMap<String, Team> teamsMap = new HashMap<>();
                     simulator.simulateEPL(splitData.get("train"),teamsMap,startPoint,probFunction,k);
                     int correctPrediction=simulator.simulateEPL(splitData.get("test"),teamsMap,startPoint,probFunction,k);
                     double newPrecision=precision(correctPrediction,splitData.get("test").size());
@@ -126,11 +126,12 @@ public class Simulator {
                         bestStartPoint= startPoint;
                         bestK=k;
                         bestProbFunction=probFunction;
-                        bestTeamsMap=teamsMap;
+                        bestTeamsMap.putAll(teamsMap);
                     }
                 }
             }
         }
+
         String bestParametersInfo=String.format("Best precision:%f, Best k:%d,Best startppint: %d ,Best probfuncion: %s, ",
                 bestPrecision,bestK,bestStartPoint,bestProbFunction);
         System.out.println(bestParametersInfo);
@@ -138,8 +139,10 @@ public class Simulator {
         System.out.println("--------------Make prediction on the newest season with best parameters and rank teams");
         List<Match> newestMatches= new ArrayList<>();
         ReadUtil.readFromCSV(newestMatches,newestSeasonPath);
-        simulator.simulateEPL(newestMatches,bestTeamsMap,bestStartPoint,bestProbFunction,bestK);
+        int correctPrediction=simulator.simulateEPL(newestMatches,bestTeamsMap,bestStartPoint,bestProbFunction,bestK);
         System.out.println("-----------------Rank Team-----------------");
         simulator.rankingTeams(bestTeamsMap);
+        System.out.println("-----------------Precision-----------------");
+        precision(correctPrediction,splitData.get("test").size());
     }
 }

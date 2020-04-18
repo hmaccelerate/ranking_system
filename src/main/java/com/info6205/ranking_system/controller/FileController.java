@@ -46,9 +46,6 @@ public class FileController {
         simulator.simulateEPL(matches,teamsMap,2000,"normal",50);
         List<Team> orderedTeam= simulator.rankingTeams(teamsMap);
         redirectAttributes.addFlashAttribute("allTeams",orderedTeam);
-//        redirectAttributes.addFlashAttribute("message",
-//                "You successfully uploaded " + orderedTeam.get(1).getTeamName() + "!");
-
         return "redirect:/rankingTeam";
     }
 
